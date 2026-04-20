@@ -15,8 +15,10 @@
 - `sudo nmap -O`(servidor linux)
 - ![](https://github.com/wagnersilvakwm0022-tech/cyber-learning/blob/main/foto%202.png).
 - `ping -c 4 127.0.0.1(Localhost)
-- 
+- ![](https://github.com/wagnersilvakwm0022-tech/cyber-learning/blob/main/capture.png)
 *Foco: 5 horas diárias de estudo intenso.*
+
+
 ![](https://github.com/wagnersilvakwm0022-tech/cyber-learning/blob/main/Screenshot%202026-04-19%2023.20.19.png)
 
 
