@@ -37,6 +37,10 @@ Security Engineer: Responsável pela manutenção e configuração das ferrament
 CERT Lead: Liderança em casos de incidentes críticos e resposta a crises (Ransomware).
 Threat Intel Analyst: Analista que estuda as táticas e comportamentos de grupos cibercriminosos específicos.
 
+
+
+
+
 **Inglês Técnico:**
 Expansão de vocabulário específico da área para resolução de desafios em plataformas internacionais (TryHackMe).
 
