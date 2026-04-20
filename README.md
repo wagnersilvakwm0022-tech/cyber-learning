@@ -14,4 +14,5 @@
 
 ---
 *Foco: 5 horas diárias de estudo intenso.*
+![](https://github.com/wagnersilvakwm0022-tech/cyber-learning/blob/main/Screenshot%202026-04-19%2023.20.19.png)
 
