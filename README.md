@@ -12,7 +12,9 @@
 - `sudo apt update` (Atualização do sistema)
 - `ping -c 4 8.8.8.8` (Teste de conectividade)
 - `nmap scanme.nmap.org` (Primeiro scan ético)
-
+- `sudo nmap -O`(servidor linux)
+- 
+![](https://github.com/wagnersilvakwm0022-tech/cyber-learning/blob/main/foto%202.png).
 ---
 *Foco: 5 horas diárias de estudo intenso.*
 ![](https://github.com/wagnersilvakwm0022-tech/cyber-learning/blob/main/Screenshot%202026-04-19%2023.20.19.png)
