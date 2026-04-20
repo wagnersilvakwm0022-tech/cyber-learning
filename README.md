@@ -27,7 +27,7 @@ Uso do comando nmap -sV para identificar não apenas portas abertas, mas as vers
 Uso da flag -Pn para escanear alvos que bloqueiam pacotes de Ping (ICMP).
 Entendimento da importância de descobrir versões de software para a busca de vulnerabilidades específicas (Exploits).
 
-![](https://github.com/wagnersilvakwm0022-tech/cyber-learning/blob/main/Screenshot%202026-04-20%2011.05.13.png)
+![](https://github.com/wagnersilvakwm0022-tech/cyber-learning/blob/main/scan-nmap-dia2.png)
 
 **Hierarquia de Segurança (Blue Team & Red Team):**
 SOC L1 Analyst: Responsável pela triagem inicial (triage) de alertas.
