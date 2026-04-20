@@ -7,6 +7,7 @@
 - **Linux:** Como ativar o ambiente Linux no Chromebook e comandos básicos de terminal.
 - **Ferramentas:** Instalação e primeiro uso do `nmap` para escaneamento de rede.
 
+
 ### 💻 Comandos Praticados:
 - `sudo apt update` (Atualização do sistema)
 - `ping -c 4 8.8.8.8` (Teste de conectividade)
