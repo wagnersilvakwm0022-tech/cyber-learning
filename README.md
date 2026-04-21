@@ -65,6 +65,8 @@ Foco mantido: 5 horas de estudo concluídas. Amanhã: Protocolos de Transporte (
 - Identifiquei `X` dispositivos ativos na rede.
 - Pratiquei o comando `nmap -sT` para forçar a conclusão do Handshake TCP.
 
+![](https://github.com/wagnersilvakwm0022-tech/cyber-learning/blob/main/Screenshot%202026-04-21%2011.32.42.png)
+
 ### 🇺🇸 Inglês Técnico do Dia
 - **Handshake:** Conexão/Aperto de mão.
 - **Reliable:** Confiável.
