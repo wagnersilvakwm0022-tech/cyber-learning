@@ -71,13 +71,11 @@ Foco mantido: 5 horas de estudo concluídas. Amanhã: Protocolos de Transporte (
 - **Latency:** Latência (atraso na resposta).
 
 
-**pra fechar com chave de ouro**
+## pra fechar com chave de ouro
 -**porta aberta** usei a porta 80.
 -**porta fechada** usei a porta 1234.
 
-
-
-**minha obcessão por aprender mais não para,quero passar o dia todo aprendendo mais sobre o meu terminal**
+*minha obcessão por aprender mais não para,quero passar o dia todo aprendendo mais sobre o meu terminal*
 
 
 
