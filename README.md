@@ -72,8 +72,8 @@ Foco mantido: 5 horas de estudo concluídas. Amanhã: Protocolos de Transporte (
 
 
 ## pra fechar com chave de ouro
--**porta aberta** usei a porta 80.
--**porta fechada** usei a porta 1234.
+- **porta aberta:** usei a porta 80.
+- **porta fechada:** usei a porta 1234.
 
 *minha obcessão por aprender mais não para,quero passar o dia todo aprendendo mais sobre o meu terminal*
 
