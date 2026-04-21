@@ -54,6 +54,22 @@ ping 127.0.0.1 (Teste de Localhost/Loopback)
 Foco mantido: 5 horas de estudo concluídas. Amanhã: Protocolos de Transporte (TCP/UDP) e o Three-way Handshake."
 
 
+## Dia 3: Protocolos de Transporte e Handshake
+
+### 🧠 Teoria de Redes
+- **TCP (Transmission Control Protocol):** Focado em confiabilidade. Realiza o "Three-Way Handshake" (SYN, SYN-ACK, ACK). Ideal para transferências de dados sensíveis como HTTPS e SSH.
+- **UDP (User Datagram Protocol):** Focado em velocidade. Não orientado à conexão. Utilizado para ataques de volume e serviços em tempo real (Streaming/VOIP).
+
+### 💻 Prática no Terminal
+- Realizei um **Ping Sweep** na rede local utilizando `nmap -sn`.
+- Identifiquei `X` dispositivos ativos na rede.
+- Pratiquei o comando `nmap -sT` para forçar a conclusão do Handshake TCP.
+
+### 🇺🇸 Inglês Técnico do Dia
+- **Handshake:** Conexão/Aperto de mão.
+- **Reliable:** Confiável.
+- **Connectionless:** Sem conexão (UDP).
+- **Latency:** Latência (atraso na resposta).
 
 
 
