@@ -75,6 +75,8 @@ Foco mantido: 5 horas de estudo concluídas. Amanhã: Protocolos de Transporte (
 - **porta aberta:** usei a porta 80.
 - **porta fechada:** usei a porta 1234.
 
+![](https://github.com/wagnersilvakwm0022-tech/cyber-learning/blob/main/foto%203.png)
+
 *Foco: meu desejo por aprender mais não para,quero passar o dia todo aprendendo mais sobre o meu terminal.*
 
 
