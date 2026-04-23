@@ -111,6 +111,37 @@ Neste quarto dia, foquei em como a internet gerencia nomes e endereços, e como 
 *Status: 5 horas de estudo concluídas. Amanhã: Camada 7 - Protocolos Web (HTTP/HTTPS).*
 
 
+# 🛡️ Jornada Cibersegurança - Dia 5: Camada de Aplicação (Web)
+
+## 🎯 Objetivo: Especialista em Segurança (SOC/Pentest)
+
+Neste quinto dia, subi para a Camada 7 do Modelo OSI para entender como os dados trafegam na Web e como os servidores se comunicam com os navegadores.
+
+### 🌐 Protocolos Web (HTTP vs HTTPS)
+- **HTTP (Porta 80):** Protocolo de transferência de texto puro. Inseguro, pois os dados viajam sem criptografia.
+- **HTTPS (Porta 443):** Versão segura do HTTP que utiliza SSL/TLS para criptografar a comunicação, protegendo dados sensíveis.
+
+### 📑 Verbos e Status Codes HTTP
+Aprendi a interpretar as respostas dos servidores através dos códigos de status:
+- **200 OK:** A requisição foi bem-sucedida.
+- **301 Moved Permanently:** O recurso mudou de endereço (Redirecionamento).
+- **403 Forbidden:** O servidor entendeu o pedido, mas se recusa a autorizar o acesso (Falta de permissão).
+- **404 Not Found:** O recurso solicitado não foi encontrado no servidor.
+
+### 🛠️ Comandos Praticados (Terminal)
+- `curl -I https://google.com`: Utilizado para ler apenas o cabeçalho (Header) da resposta do servidor.
+![](
+- `curl -I -L https://google.com`: Segue automaticamente os redirecionamentos (como o erro 301) até chegar ao destino final (200 OK).
+
+### 🇺🇸 Inglês Técnico (Tech Vocabulary)
+- **Request:** Requisição (o pedido feito pelo cliente).
+- **Response:** Resposta (o retorno enviado pelo servidor).
+- **Header:** Cabeçalho (metadados da conexão).
+- **Redirect:** Redirecionamento.
+- **Forbidden:** Proibido/Negado.
+
+---
+*Status: 5 horas de estudo concluídas. Amanhã: Dia 6 - Finalizando os fundamentos de Rede (Portas e Protocolos).*
 
 
 
