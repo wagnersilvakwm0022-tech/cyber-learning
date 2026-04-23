@@ -79,10 +79,35 @@ Foco mantido: 5 horas de estudo concluídas. Amanhã: Protocolos de Transporte (
 
 *Foco: meu desejo por aprender mais não para,quero passar o dia todo aprendendo mais sobre o meu terminal.*
 
+# 🛡️ Jornada Cibersegurança - Dia 4: O Sistema Nervoso da Internet
 
+## 🎯 Objetivo: Especialista em Segurança (SOC/Pentest)
 
+Neste quarto dia, foquei em como a internet gerencia nomes e endereços, e como investigar a identidade de um domínio.
 
+### 🌐 DNS (Domain Name System) & DHCP
+- **DNS:** Entendi que o DNS é o "tradutor" que converte nomes de domínio (google.com) em endereços IP.
+- **NXDOMAIN:** Aprendi que este erro (Non-Existent Domain) indica que o domínio pesquisado não existe nos registros mundiais.
+- **DHCP:** Compreendi como o roteador entrega endereços IP de forma dinâmica para os dispositivos da rede local.
 
+### 🛠️ Comandos Praticados (Terminal)
+- `nslookup google.com`: Consulta simples de resolução de nome.
+- `dig google.com`: Ferramenta avançada para verificar registros de DNS e tempos de resposta (**Query Time**).
+- `whois google.com`: Investigação de propriedade de domínio, data de criação e expiração.
+
+### 📊 Descobertas Técnicas
+- **Data de Criação do Google:** Identificada via `whois` como 15/09/1997.
+- **Status da Rede:** Pratiquei a identificação de domínios derrubados ou inexistentes através do status **NXDOMAIN**.
+
+### 🇺🇸 Inglês Técnico (Tech Vocabulary)
+- **Query:** Consulta / Pergunta ao servidor.
+- **Resolution:** Resolução (processo de transformar nome em IP).
+- **Registrar:** Empresa responsável pelo registro do domínio.
+- **Expiry Date:** Data de validade/expiração do contrato do domínio.
+- **Lease:** Tempo de "aluguel" de um IP entregue pelo DHCP.
+
+---
+*Status: 5 horas de estudo concluídas. Amanhã: Camada 7 - Protocolos Web (HTTP/HTTPS).*
 
 
 
