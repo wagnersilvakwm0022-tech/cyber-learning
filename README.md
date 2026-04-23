@@ -93,6 +93,7 @@ Neste quarto dia, foquei em como a internet gerencia nomes e endereços, e como 
 ### 🛠️ Comandos Praticados (Terminal)
 - `nslookup google.com`: Consulta simples de resolução de nome.
 - `dig google.com`: Ferramenta avançada para verificar registros de DNS e tempos de resposta (**Query Time**).
+![](https://github.com/wagnersilvakwm0022-tech/cyber-learning/blob/main/Screenshot%202026-04-22%2023.11.00.png)
 - `whois google.com`: Investigação de propriedade de domínio, data de criação e expiração.
 
 ### 📊 Descobertas Técnicas
