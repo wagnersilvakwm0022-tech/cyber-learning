@@ -95,7 +95,7 @@ Neste quarto dia, foquei em como a internet gerencia nomes e endereços, e como 
 - `dig google.com`: Ferramenta avançada para verificar registros de DNS e tempos de resposta (**Query Time**).
 ![](https://github.com/wagnersilvakwm0022-tech/cyber-learning/blob/main/Screenshot%202026-04-22%2023.11.00.png)
 - `whois google.com`: Investigação de propriedade de domínio, data de criação e expiração.
-
+![](https://github.com/wagnersilvakwm0022-tech/cyber-learning/blob/main/Screenshot%202026-04-22%2023.17.42.png)
 ### 📊 Descobertas Técnicas
 - **Data de Criação do Google:** Identificada via `whois` como 15/09/1997.
 - **Status da Rede:** Pratiquei a identificação de domínios derrubados ou inexistentes através do status **NXDOMAIN**.
