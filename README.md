@@ -141,6 +141,7 @@ Aprendi a interpretar as respostas dos servidores através dos códigos de statu
 - **Redirect:** Redirecionamento.
 - **Forbidden:** Proibido/Negado.
 
+#### Hoje também aprendi a analisar o arquivo robots.txt, técnica utilizada no reconhecimento de aplicações web para identificar diretórios ocultos ou sensíveis.
 ---
 *Status: 5 horas de estudo concluídas. Amanhã: Dia 6 - Finalizando os fundamentos de Rede (Portas e Protocolos).*
 
