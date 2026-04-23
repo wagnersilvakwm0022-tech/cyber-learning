@@ -130,9 +130,10 @@ Aprendi a interpretar as respostas dos servidores através dos códigos de statu
 
 ### 🛠️ Comandos Praticados (Terminal)
 - `curl -I https://google.com`: Utilizado para ler apenas o cabeçalho (Header) da resposta do servidor.
-![](
-- `curl -I -L https://google.com`: Segue automaticamente os redirecionamentos (como o erro 301) até chegar ao destino final (200 OK).
+![](https://github.com/wagnersilvakwm0022-tech/cyber-learning/blob/main/Screenshot%202026-04-23%2008.46.49.png)
+- `curl -I -L https://google.com`: Segue automaticamente os redirecionamentos (como o erro 301) até chegar ao destino final (200).
 ![](https://github.com/wagnersilvakwm0022-tech/cyber-learning/blob/main/pdf.png)
+
 ### 🇺🇸 Inglês Técnico (Tech Vocabulary)
 - **Request:** Requisição (o pedido feito pelo cliente).
 - **Response:** Resposta (o retorno enviado pelo servidor).
