@@ -142,6 +142,8 @@ Aprendi a interpretar as respostas dos servidores através dos códigos de statu
 - **Forbidden:** Proibido/Negado.
 
 #### Hoje também aprendi a analisar o arquivo robots.txt, técnica utilizada no reconhecimento de aplicações web para identificar diretórios ocultos ou sensíveis.
+![](https://github.com/wagnersilvakwm0022-tech/cyber-learning/blob/main/Screenshot%202026-04-23%2009.16.05.png)
+
 ---
 *Status: 5 horas de estudo concluídas. Amanhã: Dia 6 - Finalizando os fundamentos de Rede (Portas e Protocolos).*
 
