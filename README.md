@@ -164,7 +164,7 @@ Neste sexto dia, foquei em entender o "Dicionário de Portas" e como a configura
 ### 🛠️ Comandos Praticados (Terminal)
 - `sudo nmap -p 21,22,23,445 scanme.nmap.org`: Scan focado em portas de gerenciamento.
 - `sudo nmap -sV -p 22 scanme.nmap.org`: Técnica de **Banner Grabbing** para identificar a versão do serviço SSH.
-- `sudo apt install netcat -y`: Instalação do "Canivete Suíço" da segurança.
+- `sudo apt install netcat-openbsd -y`: (Instalação da ferramenta de conexão direta).
 
 ### 📊 Conclusões Técnicas
 - Servidores bem configurados, como o `scanme.nmap.org`, mantêm portas inseguras (21, 23) **fechadas**.
