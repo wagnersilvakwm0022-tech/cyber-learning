@@ -148,6 +148,36 @@ Aprendi a interpretar as respostas dos servidores através dos códigos de statu
 *Status: 5 horas de estudo concluídas. Amanhã: Dia 6 - Finalizando os fundamentos de Rede (Portas e Protocolos).*
 
 
+# 🛡️ Jornada Cibersegurança - Dia 6: Portas e Hardening
+
+## 🎯 Objetivo: Especialista em Segurança (SOC/Pentest)
+
+Neste sexto dia, foquei em entender o "Dicionário de Portas" e como a configuração correta de um servidor (Hardening) pode prevenir invasões.
+
+### 🚪 Portas de Gerenciamento e Riscos
+- **Porta 21 (FTP) & 23 (Telnet):** Protocolos inseguros que trafegam dados em **Plaintext**. Identifiquei que são alvos fáceis para interceptação.
+- **Porta 22 (SSH):** O padrão ouro para acesso remoto. Utiliza criptografia para proteger comandos e transferências de arquivos (SFTP).
+- **Porta 445 (SMB):** Frequentemente explorada por Ransomwares para movimentação lateral em redes Windows.
+
+- # Entendi a vulnerabilidade crítica da Porta 23 (Telnet). Por não utilizar criptografia, todas as credenciais trafegam em Plaintext, permitindo ataques de interceptação. Em contraste, a Porta 22 (SSH) é o padrão de mercado por garantir a confidencialidade dos dados."
+
+### 🛠️ Comandos Praticados (Terminal)
+- `sudo nmap -p 21,22,23,445 scanme.nmap.org`: Scan focado em portas de gerenciamento.
+- `sudo nmap -sV -p 22 scanme.nmap.org`: Técnica de **Banner Grabbing** para identificar a versão do serviço SSH.
+- `sudo apt install netcat -y`: Instalação do "Canivete Suíço" da segurança.
+
+### 📊 Conclusões Técnicas
+- Servidores bem configurados, como o `scanme.nmap.org`, mantêm portas inseguras (21, 23) **fechadas**.
+- A segurança proativa exige a desativação de serviços desnecessários para reduzir a superfície de ataque.
+
+### 🇺🇸 Inglês Técnico (Tech Vocabulary)
+- **Banner Grabbing:** Coleta de informações sobre a versão de um serviço.
+- **Hardening:** Processo de reforçar a segurança de um sistema.
+- **Plaintext:** Texto puro, sem criptografia.
+- **Inbound/Outbound:** Tráfego de entrada e saída.
+
+---
+*Status: 5 horas de estudo concluídas. Próxima meta: Dia 7 - Introdução ao Windows Security e Active Directory.*
 
 
 
