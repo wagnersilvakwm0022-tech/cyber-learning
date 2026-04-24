@@ -166,6 +166,8 @@ Neste sexto dia, foquei em entender o "Dicionário de Portas" e como a configura
 - `sudo nmap -sV -p 22 scanme.nmap.org`: Técnica de **Banner Grabbing** para identificar a versão do serviço SSH.
 - `sudo apt install netcat-openbsd -y`: (Instalação da ferramenta de conexão direta).
 
+![](https://github.com/wagnersilvakwm0022-tech/cyber-learning/blob/main/Screenshot%202026-04-24%2013.12.17.png)
+
 ### 📊 Conclusões Técnicas
 - Servidores bem configurados, como o `scanme.nmap.org`, mantêm portas inseguras (21, 23) **fechadas**.
 - A segurança proativa exige a desativação de serviços desnecessários para reduzir a superfície de ataque.
