@@ -194,9 +194,8 @@ Neste sexto dia, foquei em entender o "Dicionário de Portas" e como a configura
 ### 🛠️ Ferramentas de Enumeração
 - **Enum4linux:** Utilizada para extrair informações de sistemas Windows/Samba.
 - **SMBClient:** Ferramenta para interagir com compartilhamentos de rede (Porta 445).
-
 ![](https://github.com/wagnersilvakwm0022-tech/cyber-learning/blob/main/PP..png)
-
+![](https://github.com/wagnersilvakwm0022-tech/cyber-learning/blob/main/PeP.png)
 ### 🇺🇸 Vocabulário Corporativo
 - **Lateral Movement:** Técnica de saltar entre máquinas na rede.
 - **Policy:** Regra de segurança aplicada centralizadamente.
