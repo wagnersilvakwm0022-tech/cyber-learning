@@ -181,6 +181,24 @@ Neste sexto dia, foquei em entender o "Dicionário de Portas" e como a configura
 ---
 *Status: 5 horas de estudo concluídas. Próxima meta: Dia 7 - Introdução ao Windows Security e Active Directory.*
 
+# 🛡️ Jornada Cibersegurança - Dia 7: Active Directory e Infraestrutura Windows
+
+### 🏛️ O Coração da Rede Corporativa
+- **Active Directory (AD):** Serviço de diretório da Microsoft utilizado para gerenciar identidades e acessos em redes empresariais.
+- **Domain Controller (DC):** Servidor responsável por autenticar usuários e aplicar políticas de segurança (GPOs).
+
+### 🔑 Gestão de Privilégios
+- Entendi a diferença entre um usuário comum e um **Domain Admin**.
+- Estudei o conceito de **Privilege Escalation** (objetivo principal de um ataque em redes AD).
+  
+### 🛠️ Ferramentas de Enumeração
+- **Enum4linux:** Utilizada para extrair informações de sistemas Windows/Samba.
+- **SMBClient:** Ferramenta para interagir com compartilhamentos de rede (Porta 445).
+
+### 🇺🇸 Vocabulário Corporativo
+- **Lateral Movement:** Técnica de saltar entre máquinas na rede.
+- **Policy:** Regra de segurança aplicada centralizadamente.
+- **Share:** Pasta compartilhada na rede.
 
 
 
