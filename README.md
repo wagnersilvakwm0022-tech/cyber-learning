@@ -215,7 +215,7 @@ Neste oitavo dia, mergulhei na ciência da criptografia de senhas, entendendo co
 - **John the Ripper:** Instalei e configurei esta ferramenta lendária para quebra de hashes.
 - **Resolução de Erros:** Superei limitações do ambiente Linux do Chromebook (erros de montagem do `snapd`) instalando a ferramenta via repositórios nativos e compilando dependências.
 - **Benchmark:** Realizei o comando `john --test` para medir a capacidade de processamento do sistema em diferentes algoritmos.
-
+  ![](https://github.com/wagnersilvakwm0022-tech/cyber-learning/blob/main/ka1.51%20PM.png)
 
 ### ⚔️ Métodos de Ataque
 - **Brute Force:** Tentativa de todas as combinações possíveis (lento).
