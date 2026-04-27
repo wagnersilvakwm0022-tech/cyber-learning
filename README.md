@@ -201,22 +201,36 @@ Neste sexto dia, foquei em entender o "Dicionário de Portas" e como a configura
 - **Policy:** Regra de segurança aplicada centralizadamente.
 - **Share:** Pasta compartilhada na rede.
 
-## 🛡️ Dia 7: O Coração das Empresas - Active Directory (AD)
+# 🛡️ Jornada Cibersegurança - Dia 8: Hashes e Quebra de Senhas (Cracking)
 
-### 🏛️ O que é o Active Directory?
-O **Active Directory** é o serviço da Microsoft que gerencia todos os usuários, computadores e permissões de uma empresa em um único lugar. Sem ele, a TI de uma grande empresa não conseguiria operar.
+## 🎯 Objetivo: Especialista em Segurança (SOC/Pentest)
 
-### 🔑 Conceitos Chave:
-- **Domain Controller (DC):** O servidor principal. Se ele for comprometido, o hacker domina toda a empresa.
-- **SMB (Porta 445):** O protocolo que o Windows usa para compartilhar arquivos e onde a maioria das invasões começa.
-- **Escalação de Privilégios:** O processo de entrar como um usuário comum e lutar para se tornar um **Domain Admin**.
+Neste oitavo dia, mergulhei na ciência da criptografia de senhas, entendendo como os sistemas protegem credenciais e como hackers tentam revertê-las.
 
-![](https://github.com/wagnersilvakwm0022-tech/cyber-learning/blob/main/Ka.png)
+### 🧠 O que são Hashes?
+- **Definição:** Um hash é um "resumo matemático" de uma senha. Sistemas modernos não guardam senhas em texto puro (plaintext), mas sim em códigos únicos (MD5, SHA-256, NTLM).
+- **Via de Mão Única:** Aprendi que é impossível transformar um hash de volta em senha original sem usar métodos de comparação (Cracking).
 
-### 🇺🇸 Inglês Técnico:
-- **Domain:** Domínio (a rede da empresa).
-- **Lateral Movement:** Movimentação lateral entre computadores.
-- **Privilege Escalation:** Escalação de privilégios.
+### 🛠️ Desafios Técnicos e Ferramentas
+- **John the Ripper:** Instalei e configurei esta ferramenta lendária para quebra de hashes.
+- **Resolução de Erros:** Superei limitações do ambiente Linux do Chromebook (erros de montagem do `snapd`) instalando a ferramenta via repositórios nativos e compilando dependências.
+- **Benchmark:** Realizei o comando `john --test` para medir a capacidade de processamento do sistema em diferentes algoritmos.
+
+
+### ⚔️ Métodos de Ataque
+- **Brute Force:** Tentativa de todas as combinações possíveis (lento).
+- **Dictionary Attack:** Uso de **Wordlists** (listas de senhas reais vazadas) para acelerar a descoberta de credenciais.
+
+### 🇺🇸 Inglês Técnico (Tech Vocabulary)
+- **Hash Cracking:** O ato de quebrar um hash.
+- **Wordlist:** Dicionário de senhas.
+- **Plaintext:** Senha em texto puro, sem proteção.
+- **Benchmark:** Teste de performance da ferramenta.
+- **Salt:** Código aleatório adicionado ao hash para aumentar a segurança.
+
+---
+*Status: 5 horas de estudo concluídas sob cansaço, mas com sucesso. Amanhã: Dia 9 - Praticando ataques de dicionário com Wordlists reais.*
+
 
 
 
