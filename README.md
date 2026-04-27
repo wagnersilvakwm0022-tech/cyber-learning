@@ -201,6 +201,22 @@ Neste sexto dia, foquei em entender o "Dicionário de Portas" e como a configura
 - **Policy:** Regra de segurança aplicada centralizadamente.
 - **Share:** Pasta compartilhada na rede.
 
+## 🛡️ Dia 7: O Coração das Empresas - Active Directory (AD)
+
+### 🏛️ O que é o Active Directory?
+O **Active Directory** é o serviço da Microsoft que gerencia todos os usuários, computadores e permissões de uma empresa em um único lugar. Sem ele, a TI de uma grande empresa não conseguiria operar.
+
+### 🔑 Conceitos Chave:
+- **Domain Controller (DC):** O servidor principal. Se ele for comprometido, o hacker domina toda a empresa.
+- **SMB (Porta 445):** O protocolo que o Windows usa para compartilhar arquivos e onde a maioria das invasões começa.
+- **Escalação de Privilégios:** O processo de entrar como um usuário comum e lutar para se tornar um **Domain Admin**.
+
+
+
+### 🇺🇸 Inglês Técnico:
+- **Domain:** Domínio (a rede da empresa).
+- **Lateral Movement:** Movimentação lateral entre computadores.
+- **Privilege Escalation:** Escalação de privilégios.
 
 
 
