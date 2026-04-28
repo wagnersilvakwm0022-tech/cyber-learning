@@ -232,6 +232,30 @@ Neste oitavo dia, mergulhei na ciência da criptografia de senhas, entendendo co
 *Status: 5 horas de estudo concluídas sob cansaço, mas com sucesso. Amanhã: Dia 9 - Praticando ataques de dicionário com Wordlists reais.*
 
 
+# 🛡️ Jornada Cibersegurança - Dia 9: Wordlists e Início em Python
+
+## 🎯 Objetivo: Automação e Quebra de Senhas
+
+Neste nono dia, comecei a explorar como as ferramentas de ataque utilizam "munição" (Wordlists) e como a programação pode acelerar o trabalho de um analista.
+
+### 📚 Wordlists (Dicionários de Senhas)
+- **O que são:** Listas contendo milhões de senhas reais que vazaram em ataques históricos.
+- **Localização Técnica:** Identifiquei a wordlist padrão do John em `/usr/share/john/password.lst` (26 KB).
+- **RockYou.txt:** Aprendi sobre a wordlist mais famosa do mundo (130 MB / 14 milhões de senhas), essencial para ataques de dicionário eficazes.
+
+### 🐍 Primeiro contato com Python
+- Iniciei o aprendizado da linguagem Python, focando em automação para segurança.
+- **Prática:** Criei meu primeiro script básico para manipulação de variáveis e cálculos simples no interpretador `python3`.
+- **Lógica:** Entendi que o Python é a ferramenta que me permitirá analisar grandes volumes de dados (como as wordlists de 130 MB) em segundos.
+
+### 🇺🇸 Inglês Técnico (Vocabulary)
+- **Script:** Conjunto de instruções para o computador.
+- **Wordlist:** Lista de palavras/senhas.
+- **Run / Execute:** Rodar ou executar um programa.
+- **Dictionary Attack:** Ataque que utiliza listas pré-definidas.
+
+---
+*Status: 5 horas de estudo concluídas. Amanhã: Dia 10 - Entendendo Criptografia e Diferença entre Encode e Encrypt.*
 
 
 
