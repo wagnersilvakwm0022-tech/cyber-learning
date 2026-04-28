@@ -248,6 +248,8 @@ Neste nono dia, comecei a explorar como as ferramentas de ataque utilizam "muni�
 - **Prática:** Criei meu primeiro script básico para manipulação de variáveis e cálculos simples no interpretador `python3`.
 - **Lógica:** Entendi que o Python é a ferramenta que me permitirá analisar grandes volumes de dados (como as wordlists de 130 MB) em segundos.
 
+![](https://github.com/wagnersilvakwm0022-tech/cyber-learning/blob/main/ay8%20PM.png)
+
 ### 🇺🇸 Inglês Técnico (Vocabulary)
 - **Script:** Conjunto de instruções para o computador.
 - **Wordlist:** Lista de palavras/senhas.
