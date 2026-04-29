@@ -260,6 +260,21 @@ Neste nono dia, comecei a explorar como as ferramentas de ataque utilizam "muni�
 *Status: 5 horas de estudo concluídas. Amanhã: Dia 10 - Entendendo Criptografia e Diferença entre Encode e Encrypt.*
 
 
+# 🛡️ Jornada Cibersegurança - DIA 10: Encoding vs Encryption
+
+### 🧠 O Grande Diferencial
+Hoje aprendi a não confundir **Codificação** com **Criptografia**. 
+- **Encoding (Base64):** Usado para compatibilidade de dados. Não protege a informação (não exige senha).
+- **Encryption:** Usado para confidencialidade. Exige uma chave para ser lido.
+
+### 💻 Prática no Terminal e Python
+- Usei o comando `base64` e `base64 -d` para codificar e decodificar mensagens.
+- Desenvolvi um script simples em **Python** utilizando a biblioteca `base64` para automatizar o processo.
+
+### 🇺🇸 Inglês Técnico
+- **Encoding / Decoding:** Codificar / Decodificar.
+- **Ciphertext:** O texto secreto gerado por criptografia.
+- **Plaintext:** O texto original, legível.
 
 
 
