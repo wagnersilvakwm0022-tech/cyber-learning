@@ -279,6 +279,33 @@ Hoje aprendi a não confundir **Codificação** com **Criptografia**.
 - **Plaintext:** O texto original, legível.
 
 
+# 🛡️ Jornada Cibersegurança - Dia 11: Firewalls e Defesa de Perímetro
+
+## 🎯 Objetivo: Entender a Barreira entre o Atacante e o Alvo
+
+Neste décimo primeiro dia, foquei em como as organizações protegem seus recursos internos através de Firewalls e como identificar essas proteções durante um reconhecimento.
+
+### 🧱 O que é um Firewall?
+- **Definição:** Uma barreira de segurança que monitora e controla o tráfego de rede de entrada (**Inbound**) e saída (**Outbound**) com base em regras de segurança predefinidas.
+- **Estado "Filtered" no Nmap:** Aprendi que quando uma porta aparece como filtrada, significa que um Firewall está descartando os pacotes e impedindo que o Nmap saiba se a porta está aberta ou fechada.
+
+### 🛠️ Técnicas de Reconhecimento e Evasão
+- **ACK Scan (`nmap -sA`):** Utilizado para mapear regras de firewall e determinar se as portas estão sendo filtradas ou não.
+- **Fragmentação (`nmap -f`):** Estudei o conceito de quebrar pacotes em pedaços menores para tentar burlar a inspeção de firewalls mais simples.
+- **Bypass:** O ato de contornar ou encontrar uma brecha em uma regra de segurança.
+
+### 🐍 Lógica de Defesa com Python
+- Desenvolvi um script simples de **Blacklist** (Lista Negra) para entender a lógica de decisão de um firewall ao permitir ou negar um endereço IP.
+
+### 🇺🇸 Inglês Técnico (Tech Vocabulary)
+- **Rule:** Regra (A instrução que permite ou bloqueia o tráfego).
+- **Inbound / Outbound:** Tráfego de entrada e de saída.
+- **Filtered:** Quando a porta está protegida por um firewall.
+- **Bypass:** Contornar/Burlar uma proteção.
+- **Blacklist / Whitelist:** Lista de bloqueio e lista de permissão.
+
+---
+*Status: 5 horas de estudo concluídas. Amanhã: Dia 12 - Introdução ao Wireshark e Análise de Tráfego de Rede.*
 
 
 
