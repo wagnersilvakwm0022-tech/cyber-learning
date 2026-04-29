@@ -271,6 +271,8 @@ Hoje aprendi a não confundir **Codificação** com **Criptografia**.
 - Usei o comando `base64` e `base64 -d` para codificar e decodificar mensagens.
 - Desenvolvi um script simples em **Python** utilizando a biblioteca `base64` para automatizar o processo.
 
+![](https://github.com/wagnersilvakwm0022-tech/cyber-learning/blob/main/7%20PM.png)
+
 ### 🇺🇸 Inglês Técnico
 - **Encoding / Decoding:** Codificar / Decodificar.
 - **Ciphertext:** O texto secreto gerado por criptografia.
