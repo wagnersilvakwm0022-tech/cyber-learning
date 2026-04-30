@@ -297,6 +297,8 @@ Neste décimo primeiro dia, foquei em como as organizações protegem seus recur
 ### 🐍 Lógica de Defesa com Python
 - Desenvolvi um script simples de **Blacklist** (Lista Negra) para entender a lógica de decisão de um firewall ao permitir ou negar um endereço IP.
 
+![](https://github.com/wagnersilvakwm0022-tech/cyber-learning/blob/main/Screenshot%202026-04-29%2012.51.40%20PM.png)
+
 ### 🇺🇸 Inglês Técnico (Tech Vocabulary)
 - **Rule:** Regra (A instrução que permite ou bloqueia o tráfego).
 - **Inbound / Outbound:** Tráfego de entrada e de saída.
