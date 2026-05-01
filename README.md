@@ -326,6 +326,8 @@ Neste décimo segundo dia, deixei de apenas enviar comandos e passei a "ouvir" a
 - `sudo tcpdump -i any tcp -c 10`: Filtro específico para capturar apenas tráfego TCP.
 - `sudo tcpdump -A`: Visualização dos pacotes em formato ASCII (texto legível).
 
+![](https://github.com/wagnersilvakwm0022-tech/cyber-learning/blob/main/pod12%20PM.png)
+
 ### 📊 Observações Técnicas
 - Durante os testes, identifiquei uma alta predominância de pacotes **UDP**. 
 - **Conclusão:** Isso reflete o tráfego de serviços de streaming e consultas de DNS que ocorrem em segundo plano no sistema.
