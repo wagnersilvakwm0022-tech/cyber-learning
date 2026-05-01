@@ -342,6 +342,33 @@ Neste décimo segundo dia, deixei de apenas enviar comandos e passei a "ouvir" a
 ---
 *Status: 5 horas de estudo concluídas. Amanhã: Dia 13 - Vulnerabilidades de Software e o conceito de Exploit.*
 
+# 🛡️ Jornada Cibersegurança - Dia 13: Análise de Protocolos e Vulnerabilidades Web
+
+## 🎯 Objetivo: Mergulho Profundo (Deep Dive) em Tráfego e Falhas Lógicas
+
+Neste décimo terceiro dia, dediquei um tempo estendido para entender como os pacotes se comportam na rede e como falhas simples de lógica podem comprometer sistemas inteiros.
+
+### 🔍 Análise de Tráfego Avançada (TCPDump)
+- **Filtros de Captura:** Aprendi a filtrar tráfego específico no terminal para evitar o "ruído" de dados desnecessários.
+- **Protocolos ICMP e ARP:** Estudei como o protocolo de mensagens (Ping) e o protocolo de resolução de endereços (ARP) operam. 
+- **ARP Spoofing:** Compreendi o conceito de "envenenamento" de ARP, onde um atacante intercepta o tráfego entre o computador e o roteador.
+
+### 🌐 Vulnerabilidades Web (OWASP Top 10)
+- **IDOR (Insecure Direct Object Reference):** Estudei esta falha de controle de acesso onde a alteração de um parâmetro (como um ID na URL) permite acessar dados de outros usuários. 
+- **Impacto:** Entendi que falhas lógicas são tão perigosas quanto falhas técnicas, pois muitas vezes não são detectadas por firewalls automáticos.
+
+### 🐍 Automação com Python
+- **Socket Programming:** Desenvolvi a lógica inicial de um **Port Scanner** em Python, utilizando a biblioteca `socket` para testar conexões em portas específicas.
+- **Diferencial:** Entendi que criar minhas próprias ferramentas me dá mais flexibilidade do que apenas usar softwares prontos.
+
+### 🇺🇸 Inglês Técnico e Teoria
+- **Query / Response:** O fluxo de pergunta e resposta dos protocolos.
+- **IDOR:** Referência direta a objeto insegura.
+- **Spoofing:** Falsificação de identidade/endereço.
+- **Linear Algebra:** Iniciei estudos em álgebra linear, fundamental para o entendimento de algoritmos de segurança.
+
+---
+*Status: 10 horas de imersão concluídas. Amanhã: Dia 14 - Explorando Metasploit e Frameworks de Exploração.*
 
 
 
