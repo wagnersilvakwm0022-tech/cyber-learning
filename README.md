@@ -309,6 +309,36 @@ Neste décimo primeiro dia, foquei em como as organizações protegem seus recur
 ---
 *Status: 5 horas de estudo concluídas. Amanhã: Dia 12 - Introdução ao Wireshark e Análise de Tráfego de Rede.*
 
+# 🛡️ Jornada Cibersegurança - Dia 12: Análise de Tráfego e Sniffing
+
+## 🎯 Objetivo: Aprender a interceptar e analisar dados na rede
+
+Neste décimo segundo dia, deixei de apenas enviar comandos e passei a "ouvir" a comunicação da rede. Aprendi a utilizar ferramentas de captura de pacotes para perícia e análise de segurança.
+
+### 🕵️ O que é Packet Sniffing?
+- **Definição:** É a técnica de interceptar pacotes de dados que viajam pela rede. 
+- **Utilidade:** Essencial para analistas de SOC identificarem invasões, vazamentos de dados ou diagnósticos de rede.
+- **Protocolos Inseguros:** Ficou claro como protocolos como HTTP e FTP são perigosos, pois permitem que um "sniffer" leia os dados em texto puro.
+
+### 🛠️ Comandos Praticados (Terminal)
+- `sudo apt install tcpdump -y`: Instalação do analisador de tráfego via linha de comando.
+- `sudo tcpdump -i any -c 20`: Captura global de 20 pacotes para análise inicial.
+- `sudo tcpdump -i any tcp -c 10`: Filtro específico para capturar apenas tráfego TCP.
+- `sudo tcpdump -A`: Visualização dos pacotes em formato ASCII (texto legível).
+
+### 📊 Observações Técnicas
+- Durante os testes, identifiquei uma alta predominância de pacotes **UDP**. 
+- **Conclusão:** Isso reflete o tráfego de serviços de streaming e consultas de DNS que ocorrem em segundo plano no sistema.
+
+### 🇺🇸 Inglês Técnico (Tech Vocabulary)
+- **Capture:** Capturar.
+- **Traffic:** Tráfego de rede.
+- **Sniffer:** Farejador/Interceptador de pacotes.
+- **Payload:** A carga útil (dados reais) dentro de um pacote.
+- **Interface:** A placa de rede por onde os dados passam.
+
+---
+*Status: 5 horas de estudo concluídas. Amanhã: Dia 13 - Vulnerabilidades de Software e o conceito de Exploit.*
 
 
 
