@@ -370,6 +370,35 @@ Neste décimo terceiro dia, dediquei um tempo estendido para entender como os pa
 ---
 *Status: 10 horas de imersão concluídas. Amanhã: Dia 14 - Explorando Metasploit e Frameworks de Exploração.*
 
+# 🛡️ Jornada Cibersegurança - Dia 14: Frameworks de Exploração (Metasploit)
+
+## 🎯 Objetivo: Entender a Lógica de Exploração e Pós-Invasão
+
+Neste décimo quarto dia, foquei na anatomia de um ataque cibernético e nas ferramentas utilizadas por Pentesters profissionais para ganhar acesso a sistemas.
+
+### 🧠 Vulnerabilidade vs Exploit vs Payload
+- **Vulnerabilidade:** A falha técnica no sistema alvo.
+- **Exploit:** O meio/código utilizado para aproveitar a falha.
+- **Payload:** O software malicioso que executa ações após a invasão. Ex: **Meterpreter**.
+
+### ⚡ O Poder do Meterpreter
+- Entendi que o Meterpreter é um payload avançado que reside na memória RAM, permitindo ações como:
+  - Captura de tela (`screenshot`).
+  - Extração de hashes de senhas (`hashdump`).
+  - Pivotagem (usar o PC invadido para atacar outros na mesma rede).
+
+### 🛠️ Troubleshooting de Rede
+- Enfrentei problemas de resolução de DNS no ambiente Linux do Chromebook ao tentar baixar o framework.
+- "Durante a instalação do Metasploit, enfrentei um erro de DNS Resolution (Could not resolve host). Utilizei técnicas de troubleshooting de rede para verificar a conectividade e entendi que, no Pentest, a infraestrutura do atacante deve estar tão sólida quanto o conhecimento técnico.
+- Pratiquei comandos de diagnóstico como `ping` e edição do arquivo `/etc/resolv.conf`. No Pentest, saber lidar com falhas na própria infraestrutura é vital.
+
+### 🇺🇸 Vocabulário de Exploração
+- **Reverse Shell:** Quando o alvo se conecta ao atacante para burlar o firewall.
+- **LHOST / RHOST:** Local Host (Atacante) e Remote Host (Alvo).
+- **PoC (Proof of Concept):** Demonstração de que uma vulnerabilidade é real.
+
+---
+*Status: 5 horas de estudo concluídas. Amanhã: Dia 15 - Consolidando as duas primeiras semanas.*
 
 
 
