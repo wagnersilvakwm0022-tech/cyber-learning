@@ -400,6 +400,23 @@ Neste décimo quarto dia, foquei na anatomia de um ataque cibernético e nas fer
 ---
 *Status: 5 horas de estudo concluídas. Amanhã: Dia 15 - Consolidando as duas primeiras semanas.*
 
+# 🛡️ DIA 15: Marco da Primeira Quinzena - Consolidação de Elite
+
+Duas semanas atrás, eu era um iniciante. Hoje, sou um estudante de cibersegurança com base técnica real.
+
+### 🧠 Resumo do Conhecimento Blindado:
+- **Redes:** Domínio de TCP/IP, portas críticas e diagnóstico de DNS.
+- **Sistemas:** Administração Linux (Crostini) e manipulação de arquivos.
+- **Segurança Corporativa:** Noções de Active Directory e Privilégios Windows.
+- **Exploração:** Lógica de Reverse Shell, Metasploit e Netcat.
+- **Programação:** Scripts básicos em Python para automação de segurança.
+
+### 🚀 O Plano de Guerra:
+- Faltam poucos dias para o investimento no TryHackMe Premium.
+- O foco continua sendo o mercado americano aos 21 anos.
+
+---
+*Status: 15/1000 dias concluídos. A BMW e a casa da minha mãe são o combustível.*
 
 
 
