@@ -415,6 +415,19 @@ Duas semanas atrás, eu era um iniciante. Hoje, sou um estudante de ciberseguran
 - Faltam poucos dias para o investimento no TryHackMe Premium.
 - O foco continua sendo o mercado americano aos 21 anos.
 
+### 🧠 Resumo:
+- **Three-Way Handshake"** do TCP: É o processo de aperto de mão que um servidor tem
+antes de estabelecer os dados para que qualquer dado seja enviado.
+
+- **Diferença entre os códigos 200, 301, 403 e 404**: As diferenças são (código de status 200) - acesso
+autorizado sem nenhuma restrição ou permissão para acessar.(código de status 301) - O acesso 
+mudou de posição para sempre, ele direciona uma nova URL mandando o navegador ir para lá.(código de status 403) - O servidor entendeu o que você quer mais ele se recusa dar, é um sinal que tem algo valioso aqui e se eu acessar terei uma recompensa, dá para acessar usando técnicas de 403 bypass para tentar pular a proteção.(código de status 404) - O servidor não conseguiu localizar nada no endereço solicitado, as veses é usado para despistar hackers que tentam invadir e no lugar de 403 põe 404.
+
+- **O que é o Domain Controller**: é onde todo hacker quer chegar para poder ter o acesso de Enterprise Admin.
+
+- **Lateral Movement**: não dá para chegar e pegar direto o chefão,precisa começar de onde menos as pessoas esperam um exemplo disso é começar pelo acesso de alguém da administração até chegar no (DC).
+
+
 ---
 *Status: 15/1000 dias concluídos. A BMW e a casa da minha mãe são o combustível.*
 
