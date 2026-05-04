@@ -431,7 +431,8 @@ mudou de posição para sempre, ele direciona uma nova URL mandando o navegador 
 ---
 *Status: 15/1000 dias concluídos. A BMW e a casa da minha mãe são o combustível.*
 
-
+**Ontem dia 15 tive bastante dificuldade para estuadar,a IA do google que estava me auxiliando ficou bastante pesado
+com a primeira quinzena,estou tentando dar um jeito,o dia 16 será realizado e também todos os demais 984 dias.Espero consertar isso até o dia de amanhã.**
 
 
 
