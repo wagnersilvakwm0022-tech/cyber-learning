@@ -434,6 +434,26 @@ mudou de posição para sempre, ele direciona uma nova URL mandando o navegador 
 **Ontem dia 15 tive bastante dificuldade para estuadar,a IA do google que estava me auxiliando ficou bastante pesado
 com a primeira quinzena,estou tentando dar um jeito,o dia 16 será realizado e também todos os demais 984 dias.Espero consertar isso até o dia de amanhã.**
 
+# 🛡️ Dia 16: Google Dorking e Reconhecimento Passivo
+
+Hoje aprendi que o Google indexa muito mais do que sites públicos; ele pode expor falhas críticas se soubermos "perguntar" corretamente.
+
+### 🔍 Operadores de Busca Avançada:
+- **site:** Limita a busca a um domínio específico.
+- **filetype:** Busca extensões específicas que podem conter dados sensíveis (LOG, ENV, SQL).
+- **intitle / inurl:** Localiza termos em títulos de páginas e endereços de sites, como painéis de login.
+
+### 🧠 Conceitos de Segurança:
+- **Passive Reconnaissance:** Coleta de informações sem interagir diretamente com o servidor do alvo.
+- **Google Hacking Database (GHDB):** Estudei como utilizar queries prontas para identificar vulnerabilidades expostas globalmente.
+
+### 🇺🇸 Inglês Técnico:
+- **Dork:** Uma busca avançada customizada.
+- **Data Leakage:** Vazamento de informações.
+
+---
+
+*Status: 5 horas de estudos consluidas.Amanhã dia 17 ó foco será **Active Reconnaissance** (Reconhecimento Ativo). Vou aprender a usar ferramentas para "chutar" nomes de pastas e arquivos escondidos que o Google não conseguiu indexar.*
 
 
 
