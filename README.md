@@ -473,6 +473,8 @@ Hoje avancei do reconhecimento passivo para o **Active Reconnaissance** (Reconhe
 ### 🐍 Lógica de Automação
 - Pratiquei a lógica de decisão em Python para tratar diferentes respostas HTTP, reforçando o entendimento de como automatizar a análise de resultados de um scan.
 
+![](https://github.com/wagnersilvakwm0022-tech/cyber-learning/blob/main/pyt.24.30%20PM.png)
+
 ### 🇺🇸 Inglês Técnico:
 - **Rate Limiting:** Limite de taxa de requisições.
 - **Hidden Directories:** Diretórios escondidos/ocultos.
