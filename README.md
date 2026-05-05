@@ -451,6 +451,7 @@ Hoje aprendi que o Google indexa muito mais do que sites públicos; ele pode exp
 - **Dork:** Uma busca avançada customizada.
 - **Data Leakage:** Vazamento de informações.
 
+_Pratiquei buscas avançadas no navegador para entender como o Google indexa dados sensíveis_
 ---
 
 *Status: 5 horas de estudos consluidas.Amanhã dia 17 ó foco será **Active Reconnaissance** (Reconhecimento Ativo). Vou aprender a usar ferramentas para "chutar" nomes de pastas e arquivos escondidos que o Google não conseguiu indexar.*
