@@ -456,6 +456,30 @@ _Pratiquei buscas avançadas no navegador para entender como o Google indexa dad
 
 *Status: 5 horas de estudos consluidas.Amanhã dia 17 ó foco será **Active Reconnaissance** (Reconhecimento Ativo). Vou aprender a usar ferramentas para "chutar" nomes de pastas e arquivos escondidos que o Google não conseguiu indexar.*
 
+# 🛡️ Dia 17: Web Fuzzing e Enumeração de Diretórios
+
+Hoje avancei do reconhecimento passivo para o **Active Reconnaissance** (Reconhecimento Ativo), utilizando ferramentas para descobrir arquivos e pastas ocultas em servidores web.
+
+### 🔍 O que é Web Fuzzing?
+- **Conceito:** Técnica de "força bruta" aplicada a URLs. Consiste em testar milhares de palavras de uma **Wordlist** contra um servidor para identificar diretórios que não estão linkados publicamente.
+- **Ferramentas de Elite:** Instalei e explorei o **ffuf** (Fuzz Faster U Fool) e o **dirb**, ferramentas essenciais para descoberta de conteúdo.
+
+### 🚧 Enfrentando Defesas (Status Codes)
+- **200 OK:** Diretório encontrado e acessível.
+- **404 Not Found:** O diretório não existe.
+- **429 Too Many Requests:** Identifiquei que este código indica a presença de **Rate Limiting**. O servidor percebeu o excesso de requisições e bloqueou o acesso temporariamente.
+- **Estratégia de Evasão:** Aprendi que para contornar o erro 429 e sistemas de **WAF**, é necessário ajustar o *delay* (atraso) entre as requisições para parecer um tráfego legítimo.
+
+### 🐍 Lógica de Automação
+- Pratiquei a lógica de decisão em Python para tratar diferentes respostas HTTP, reforçando o entendimento de como automatizar a análise de resultados de um scan.
+
+### 🇺🇸 Inglês Técnico:
+- **Rate Limiting:** Limite de taxa de requisições.
+- **Hidden Directories:** Diretórios escondidos/ocultos.
+- **Active Recon:** Reconhecimento que interage diretamente com o alvo.
+
+---
+*Status: 17/1000 dias. A base está ficando sólida, o foco agora é a prática intensa.*
 
 
 
