@@ -483,6 +483,28 @@ Hoje avancei do reconhecimento passivo para o **Active Reconnaissance** (Reconhe
 ---
 *Status: 17/1000 dias. A base está ficando sólida, o foco agora é a prática intensa.*
 
+# 🛡️ Dia 18: Burp Suite e Interceptação de Tráfego
+
+Neste décimo oitavo dia, dei um passo crucial ao instalar e configurar o **Burp Suite Community Edition**, a ferramenta padrão da indústria para testes de segurança em aplicações web.
+
+### 🔌 O Coração do Pentest Web: Proxy de Interceptação
+- **Conceito:** Aprendi a posicionar o Burp Suite entre o meu navegador e o servidor alvo, permitindo "parar o tempo" nas requisições HTTP.
+- **Troubleshooting de Ambiente:** Enfrentei limitações de armazenamento no Chromebook (Crostini). Realizei a manutenção do sistema via terminal (`apt clean` / `autoremove`) e redimensionei a partição do Linux para permitir a instalação dos certificados CA do Burp.
+- **HTTPS/SSL:** Entendi a necessidade de instalar o certificado do Burp no navegador para descriptografar e analisar tráfego seguro (HTTPS).
+
+### 🛠️ Módulos Explorados
+- **Proxy:** Interceptação e modificação de tráfego em tempo real (Request/Response).
+- **Repeater:** Aprendi a reenviar requisições modificadas para testar vulnerabilidades de forma rápida, sem recarregar o navegador.
+- **Lógica de Ataque:** Estudei como a manipulação de parâmetros (como preços ou funções de usuário) pode expor falhas de lógica de negócio e **Privilege Escalation** (Escalação de Privilégios).
+
+### 🇺🇸 Inglês Técnico (Tech Vocabulary)
+- **Intercept:** Interceptar a comunicação.
+- **Forward / Drop:** Enviar ou descartar uma requisição.
+- **Raw Data:** Dados brutos, sem formatação.
+- **Request / Response:** O fluxo de pergunta (cliente) e resposta (servidor).
+
+---
+*Status: 18/1000 dias. Superando barreiras de hardware e dominando as ferramentas de elite.*
 
 
 
