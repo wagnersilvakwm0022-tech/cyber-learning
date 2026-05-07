@@ -523,6 +523,7 @@ Neste décimo nono dia, foquei em mecanismos de controle de acesso e nas ferrame
 ### 🛠️ Troubleshooting e Adaptação Técnica
 - **Desafio de Hardware:** Enfrentei instabilidades na interface gráfica (Java GUI) do Burp Suite devido às limitações de memória RAM do ambiente Chromebook. 
 - **Solução Estratégica:** Direcionei o estudo para a lógica de ataques via CLI (Linha de Comando) utilizando o **ffuf**, que executa as mesmas funções do Burp Intruder (Fuzzing de POST requests) de forma muito mais leve e performática.
+![](https://github.com/wagnersilvakwm0022-tech/meus-dowloads/blob/main/Screenshot%202026-05-07%206.08.24%20PM.png)
 - **Rate Limiting:** Entendi que em servidores lentos ou protegidos, o uso de "Delays" e ataques sequenciais (um por um) é obrigatório para evitar o travamento do serviço ou o banimento do IP.
 
 ### 🇺🇸 Vocabulário do Dia:
