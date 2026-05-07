@@ -497,6 +497,8 @@ Neste décimo oitavo dia, dei um passo crucial ao instalar e configurar o **Burp
 - **Repeater:** Aprendi a reenviar requisições modificadas para testar vulnerabilidades de forma rápida, sem recarregar o navegador.
 - **Lógica de Ataque:** Estudei como a manipulação de parâmetros (como preços ou funções de usuário) pode expor falhas de lógica de negócio e **Privilege Escalation** (Escalação de Privilégios).
 
+![](https://github.com/wagnersilvakwm0022-tech/meus-dowloads/blob/main/Screenshot%202026-05-06%208.59.09%20PM.png)
+
 ### 🇺🇸 Inglês Técnico (Tech Vocabulary)
 - **Intercept:** Interceptar a comunicação.
 - **Forward / Drop:** Enviar ou descartar uma requisição.
