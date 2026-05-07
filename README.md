@@ -509,6 +509,28 @@ Neste décimo oitavo dia, dei um passo crucial ao instalar e configurar o **Burp
 *Status: 18/1000 dias. Superando barreiras de hardware e dominando as ferramentas de elite.*
 
 
+# 🛡️ Dia 19: Autenticação, Força Bruta e Troubleshooting de Performance
+
+Neste décimo nono dia, foquei em mecanismos de controle de acesso e nas ferramentas utilizadas para testar a robustez de formulários de login.
+
+### 🔑 Anatomia da Autenticação
+- **Mecanismos de Defesa:** Estudei como os servidores validam credenciais e a importância de cookies de sessão seguros.
+- **Tipos de Ataque (Burp Intruder):**
+  - **Sniper:** Focado em um único campo (ex: testar senhas para um usuário fixo).
+  - **Cluster Bomb:** Testa todas as combinações entre múltiplas listas (ex: lista de usuários vs lista de senhas). É o método mais exaustivo.
+
+### 🛠️ Troubleshooting e Adaptação Técnica
+- **Desafio de Hardware:** Enfrentei instabilidades na interface gráfica (Java GUI) do Burp Suite devido às limitações de memória RAM do ambiente Chromebook. 
+- **Solução Estratégica:** Direcionei o estudo para a lógica de ataques via CLI (Linha de Comando) utilizando o **ffuf**, que executa as mesmas funções do Burp Intruder (Fuzzing de POST requests) de forma muito mais leve e performática.
+- **Rate Limiting:** Entendi que em servidores lentos ou protegidos, o uso de "Delays" e ataques sequenciais (um por um) é obrigatório para evitar o travamento do serviço ou o banimento do IP.
+
+### 🇺🇸 Vocabulário do Dia:
+- **Credential Stuffing:** Ataque que usa listas de vazamentos de outros sites.
+- **Session Hijacking:** Sequestro de sessão através do roubo de cookies.
+- **Throttling:** Controle de velocidade de requisições para evitar sobrecarga.
+
+---
+*Status: 19/1000 dias. A técnica é superior à ferramenta. Se a interface falha, o terminal resolve.*
 
 
 
