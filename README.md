@@ -535,6 +535,27 @@ Neste décimo nono dia, foquei em mecanismos de controle de acesso e nas ferrame
 *Status: 19/1000 dias. A técnica é superior à ferramenta. Se a interface falha, o terminal resolve.*
 
 
+# 🛡️ Dia 20: Marco de 20 Dias - Automação e Administração de Sistemas
+
+Hoje atingi a marca de 20 dias consecutivos de imersão. O foco do dia foi sair da posição de usuário de ferramentas e começar a construir minhas próprias soluções de automação e gerenciar o ambiente de desenvolvimento.
+
+### 🐍 Automação com Python (HTTP Alive Check)
+- **Desenvolvimento:** Criei um script em Python utilizando a biblioteca `requests` para verificar o status de disponibilidade (Uptime) de múltiplos alvos simultaneamente.
+- **Lógica:** O script analisa os **HTTP Status Codes** (como o 200 OK) e utiliza blocos `try/except` para tratar erros de conexão sem interromper a execução.
+- **Ambientes Virtuais (PEP 668):** Superei a restrição de "externally-managed-environment" do Linux moderno criando um **Python Virtual Environment (venv)**. Isso garante que minhas ferramentas de Pentest não interfiram na integridade do sistema operacional.
+
+### 🛠️ Administração de Sistemas e Edição via Terminal
+- **Editor Nano:** Iniciei o domínio do editor de texto `nano` para manipulação de arquivos diretamente via CLI (Command Line Interface).
+- **Escalação de Privilégios (PrivEsc):** Comecei os estudos teóricos sobre como elevar acessos de um usuário comum para **Root** (Linux) através da exploração de permissões mal configuradas, como o bit **SUID** e comandos no **sudoers**.
+
+### 🇺🇸 Inglês Técnico e Termos de Elite:
+- **Virtual Environment:** Ambiente virtual isolado.
+- **Privilege Escalation (PrivEsc):** Escalação de privilégios.
+- **Uptime:** Tempo de atividade de um servidor.
+- **Troubleshooting:** Diagnóstico e resolução de problemas técnicos.
+
+---
+*Status: 20/1000 dias. A base técnica está se transformando em capacidade de criação. Rumo aos 21 anos com domínio total.*
 
 
 
