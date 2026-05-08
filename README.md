@@ -543,6 +543,7 @@ Hoje atingi a marca de 20 dias consecutivos de imersão. O foco do dia foi sair 
 - **Desenvolvimento:** Criei um script em Python utilizando a biblioteca `requests` para verificar o status de disponibilidade (Uptime) de múltiplos alvos simultaneamente.
 - **Lógica:** O script analisa os **HTTP Status Codes** (como o 200 OK) e utiliza blocos `try/except` para tratar erros de conexão sem interromper a execução.
 - **Ambientes Virtuais (PEP 668):** Superei a restrição de "externally-managed-environment" do Linux moderno criando um **Python Virtual Environment (venv)**. Isso garante que minhas ferramentas de Pentest não interfiram na integridade do sistema operacional.
+![](https://github.com/wagnersilvakwm0022-tech/meus-dowloads/blob/main/Screenshot%202026-05-08%201.47.06%20PM.png)
 
 ### 🛠️ Administração de Sistemas e Edição via Terminal
 - **Editor Nano:** Iniciei o domínio do editor de texto `nano` para manipulação de arquivos diretamente via CLI (Command Line Interface).
