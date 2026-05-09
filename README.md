@@ -1,4 +1,7 @@
-[![trophy](https://vercel.app)](https://github.com)
+<p align="center">
+  <img src="https://vercel.app" alt="trophy" />
+</p>
+
 
 # 🛡️ Jornada Cibersegurança - Dia 1
 
