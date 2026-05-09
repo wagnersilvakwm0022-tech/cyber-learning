@@ -558,6 +558,30 @@ Hoje atingi a marca de 20 dias consecutivos de imersão. O foco do dia foi sair 
 ---
 *Status: 20/1000 dias. A base técnica está se transformando em capacidade de criação. Rumo aos 21 anos com domínio total.*
 
+# 🛡️ Dia 21: Escalação de Privilégios no Linux e o Poder do GTFOBins
+
+Neste vigésimo primeiro dia, encerrei a terceira semana de imersão focando na fase de **Post-Exploitation**, especificamente na técnica de **Privilege Escalation (PrivEsc)**.
+
+### 👑 O Alvo: Usuário Root
+- **Conceito:** Entendi que o objetivo final de um atacante após ganhar acesso inicial é atingir o nível de **Root** (UID 0), garantindo controle total sobre o sistema operacional.
+- **Investigação Inicial:** Pratiquei o uso do comando `sudo -l`, que enumera quais permissões de administrador o usuário atual possui sem a necessidade de senha.
+
+### 🛠️ GTFOBins (Binários de Fuga)
+- Explorei o repositório **GTFOBins**, uma biblioteca técnica que detalha como utilizar binários legítimos do Linux (como `find`, `nano`, `less`) para contornar permissões de sistema e escalar privilégios.
+![](https://github.com/wagnersilvakwm0022-tech/meus-dowloads/blob/main/GTFOBinS6.57%20PM.png)
+- **Aprendizado:** Entendi que a escalação de privilégios muitas vezes não depende de um exploit de kernel, mas sim da exploração de **misconfigurations** (configurações erradas) feitas por administradores.
+
+### 🧠 Lógica Tática
+- **Persistent Access:** Uma vez como Root, o atacante pode criar mecanismos de persistência, apagar logs de auditoria e realizar o movimento lateral na rede.
+
+### 🇺🇸 Inglês Técnico:
+- **Misconfiguration:** Configuração errada/indevida.
+- **Post-Exploitation:** Ações realizadas após a invasão bem-sucedida.
+- **Binary:** Arquivo executável de um programa.
+- **SUDO Rights:** Direitos de superusuário.
+
+---
+*Status: 21/1000 dias. Aprendendo que o conhecimento profundo do sistema é a melhor arma do Pentester.*
 
 
 
