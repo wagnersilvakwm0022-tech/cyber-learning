@@ -1,8 +1,3 @@
-<p align="center">
-  <img src="https://vercel.app" alt="trophy" />
-</p>
-
-
 # 🛡️ Jornada Cibersegurança - Dia 1
 
 ## 🎯 Objetivo: Atuar na área até os 21 anos.
