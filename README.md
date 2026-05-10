@@ -583,6 +583,26 @@ Neste vigésimo primeiro dia, encerrei a terceira semana de imersão focando na 
 ---
 *Status: 21/1000 dias. Aprendendo que o conhecimento profundo do sistema é a melhor arma do Pentester.*
 
+# 🛡️ Day 22: Automated Enumeration and Anonymity
+
+Today I reached a new level in my cybersecurity journey. I focused on automated tools and operational security.
+
+### 🐍 LinPEAS (Linux Privilege Escalation Awesome Script)
+- I successfully downloaded the `linpeas.sh` script using the terminal.
+- I analyzed the source code with `nano` to understand how it identifies SUID binaries and misconfigurations.
+- **English lesson:** "Automation is a force multiplier for a Pentester." (A automação é um multiplicador de força para um Pentester).
+
+### 🧅 Tor Network and Anonimity
+- I installed and started the **Tor service** on my Linux environment.
+- I learned to use `torsocks` to hide my real IP address while performing network tasks.
+- This skill is essential for **Passive Reconnaissance** and staying invisible.
+
+### 🛠️ Troubleshooting
+- I fixed permission issues using `chmod +x` to make the script executable.
+- I managed to solve DNS and download errors during the process.
+
+---
+*Status: 22/1000 days. My English and my technical skills are growing together.*
 
 
 
