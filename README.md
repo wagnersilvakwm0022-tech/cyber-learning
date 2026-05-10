@@ -583,28 +583,31 @@ Neste vigésimo primeiro dia, encerrei a terceira semana de imersão focando na 
 ---
 *Status: 21/1000 dias. Aprendendo que o conhecimento profundo do sistema é a melhor arma do Pentester.*
 
-# 🛡️ Day 22: Automated Enumeration and Anonymity
 
-Today I reached a new level in my cybersecurity journey. I focused on automated tools and operational security.
+# 🛡️ Day 22: High-Level Enumeration and Operational Security (OPSEC)
 
-### 🐍 LinPEAS (Linux Privilege Escalation Awesome Script)
-- I successfully downloaded the `linpeas.sh` script using the terminal.
-- I analyzed the source code with `nano` to understand how it identifies SUID binaries and misconfigurations.
-- **English lesson:** "Automation is a force multiplier for a Pentester."
+Today was a battle against technical challenges, and I succeeded. I moved from manual investigation to advanced automation and anonymity.
+
+### 🐍 LinPEAS Mastery (Linux Privilege Escalation Awesome Script)
+- **Problem Solving:** I faced several issues downloading the script (HTML errors and compressed files). 
+- **Technical Fix:** I learned to use `unzip` to extract the source code and navigate through complex directory structures to find the execution binary.
+- **Execution:** I successfully ran `./linpeas.sh` and analyzed the automated report for system misconfigurations and SUID binaries.
+- **English lesson:** "I overcame technical obstacles to execute my first automated escalation script."
 
 ![](https://github.com/wagnersilvakwm0022-tech/meus-dowloads/blob/main/linpeas.png)
 
-### 🧅 Tor Network and Anonimity
-- I installed and started the **Tor service** on my Linux environment.
-- I learned to use `torsocks` to hide my real IP address while performing network tasks.
-- This skill is essential for **Passive Reconnaissance** and staying invisible.
+### 🧅 Tor Network & Privacy
+- **Implementation:** I installed and configured the **Tor service** on my Linux environment.
+- **Anonymity:** I used `torsocks` to route my terminal traffic, learning how to stay invisible during the reconnaissance phase by masking my real IP.
 
-### 🛠️ Troubleshooting
-- I fixed permission issues using `chmod +x` to make the script executable.
-- I managed to solve DNS and download errors during the process.
+### 🛠️ Linux Commands Learned Today:
+- `wget` and `curl -L` (Advanced downloading).
+- `unzip` (Decompressing security packages).
+- `find ~ -name` (Locating hidden files in the system).
+- `chmod +x` (Granting execution permissions).
 
 ---
-*Status: 22/1000 days. My English and my technical skills are growing together.*
+*Status: 22/1000 days. Resiliency is my best tool. The BMW and my mother's house are closer than they were yesterday.*
 
 
 
