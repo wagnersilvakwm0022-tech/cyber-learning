@@ -590,7 +590,9 @@ Today I reached a new level in my cybersecurity journey. I focused on automated 
 ### 🐍 LinPEAS (Linux Privilege Escalation Awesome Script)
 - I successfully downloaded the `linpeas.sh` script using the terminal.
 - I analyzed the source code with `nano` to understand how it identifies SUID binaries and misconfigurations.
-- **English lesson:** "Automation is a force multiplier for a Pentester." (A automação é um multiplicador de força para um Pentester).
+- **English lesson:** "Automation is a force multiplier for a Pentester."
+
+![](https://github.com/wagnersilvakwm0022-tech/meus-dowloads/blob/main/linpeas.png)
 
 ### 🧅 Tor Network and Anonimity
 - I installed and started the **Tor service** on my Linux environment.
