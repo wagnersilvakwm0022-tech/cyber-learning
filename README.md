@@ -605,7 +605,7 @@ Today was a battle against technical challenges, and I succeeded. I moved from m
 - `unzip` (Decompressing security packages).
 - `find ~ -name` (Locating hidden files in the system).
 - `chmod +x` (Granting execution permissions).
-1[](https://github.com/wagnersilvakwm0022-tech/meus-dowloads/blob/main/Screenshot%202026-05-10%204.54.21%20PM.png)
+![](https://github.com/wagnersilvakwm0022-tech/meus-dowloads/blob/main/Screenshot%202026-05-10%204.54.21%20PM.png)
 ---
 *Status: 22/1000 days. Resiliency is my best tool. The BMW and my mother's house are closer than they were yesterday.*
 
