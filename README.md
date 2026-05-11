@@ -609,11 +609,28 @@ Today was a battle against technical challenges, and I succeeded. I moved from m
 ---
 *Status: 22/1000 days. Resiliency is my best tool. The BMW and my mother's house are closer than they were yesterday.*
 
+# 🛡️ Day 23: Password Cracking with John the Ripper
+
+Today I focused on how to recover passwords from hashes found during the privilege escalation phase.
+
+### 🔑 Cryptographic Hashes
+- I learned that hashes are one-way mathematical functions. 
+- I understood that to "crack" a password, the tool compares thousands of words per second until it finds a match.
+
+### 🛠️ Hands-on: John the Ripper
+- **Installation:** `sudo apt install john`
+- **Practice:** I performed my first MD5 hash crack successfully.
+- **Tools:** I explored the concept of **Wordlists** and how they are essential for dictionary attacks.
+
+### 🇺🇸 Technical English:
+- **Hash:** A digital fingerprint of a password.
+- **Wordlist:** A dictionary file containing millions of common passwords.
+- **Brute Force:** Testing every possible combination.
+Successfully cracked my first MD5 hash using John the Ripper. I learned that even encrypted data can be vulnerable if the password is weak. My goal is to master Password Auditing to secure systems against dictionary attacks.
+
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/73f99c8d-3cbf-4288-a334-e69f01cbf6d7" />
 
-
-
-
+*Status: 23/1000 days. Resiliency is my best tool. .The BMW and my mother's house are closer than they were yesterday.*
 
 
 
