@@ -649,7 +649,7 @@ Successfully cracked my first MD5 hash using John the Ripper. I learned that eve
 
 ### 🧠 Mathematical Foundation
 - **Linear Algebra:** I watched Professor Gilbert Strang's lecture. This was my first video from an MIT professor, Linear Algebra lecture #1. He, a former MIT professor, made me see linear algebra as a linear combination of columns. He also mentions a 2-D and 3-D dimensional space, where he draws an equation in a 2x2 plane and in a 3x3 three-dimensional space, showing how column vectors form planes or lines and where the solution is located. I also understood a little about what a linear combination is, that multiplying columns of the matrix would result in a vector B which would be( Xv+yw =B ).
-- **Practical Challenge:** I also practiced vector calculations after the professor's class; one of them was  \(\vec{v}=\left[\begin{matrix}3\\ -2\end{matrix}\right]\times (-3)=\left[\begin{matrix}-9\\ 6\end{matrix}\right]\)
+- **Practical Challenge:** I also practiced vector calculations after the professor's class; one of them was (\vec{v}=\left[\begin{matrix}3\\ -2\end{matrix}\right]\times (-3)=\left[\begin{matrix}-9\\ 6\end{matrix}\right]\)
 
 
 
