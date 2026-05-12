@@ -633,7 +633,7 @@ Successfully cracked my first MD5 hash using John the Ripper. I learned that eve
 *Status: 23/1000 days. Resiliency is my best tool. .The BMW and my mother's house are closer than they were yesterday.*
 
 
-
+<img src="blob:chrome-untrusted://media-app/21ffdac8-41b0-4bf6-aeae-0dba7f17e139" alt="Screenshot 2026-05-12 1.10.44 PM.png"/>
 
 
 
