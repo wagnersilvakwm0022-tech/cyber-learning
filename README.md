@@ -631,8 +631,7 @@ Successfully cracked my first MD5 hash using John the Ripper. I learned that eve
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/73f99c8d-3cbf-4288-a334-e69f01cbf6d7" />
 
 *Status: 23/1000 days. Resiliency is my best tool. .The BMW and my mother's house are closer than they were yesterday.*
-
-
+ 
 
 
 
