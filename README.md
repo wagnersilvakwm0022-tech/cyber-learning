@@ -644,7 +644,7 @@ Parte 1: Technical Accomplishments (Technical Achievements)
 - **Targeting:** the script automates the concentration of URL base with the path */robots.txt*.Analisy the STATUS CODE(searching the 200 OK)and extract the content of file.
 -**whay it matters:** The *robots.txt* is ofthen used for admiminitrators to say to the searchings(like the Google)which folders should not be indexed.For um pentester,these forbidden folders(like */admin,/backup,or/config*)these are the points of greatests for finding vulnerabilities.
 ## Feat: implement basic web recon script with user-agent spoofing
-
+![](https://github.com/wagnersilvakwm0022-tech/meus-dowloads/blob/main/Screenshot%202026-05-12%204.02.24%20PM.png)
 
 
 
