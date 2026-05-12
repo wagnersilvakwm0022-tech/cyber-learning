@@ -633,14 +633,17 @@ Successfully cracked my first MD5 hash using John the Ripper. I learned that eve
 *Status: 23/1000 days. Resiliency is my best tool. .The BMW and my mother's house are closer than they were yesterday.*
  
 
+# 🛡️ Day 24:achieving little by little
 
-
-
-
-
-
-
-
+Parte 1: Technical Accomplishments (Technical Achievements)
+### 🐍 Python Automation: Web Reconnaissance Tool
+- **Concept:** In this Block 3 of Day 24, I developed an automated recognition script focused on identifying sensitive files on web servers. The main focus was capturing the *robots.txt*.
+### 🐍 Technical Details:
+- **Library:** I used the *requests* library to manage HTTP requests.
+- **Bypass Strategy (User-Agent):** I implemented a custom header(*Headers*).To simulate a real browser (Chrome on Windows). This is crucial to prevent simple defense mechanisms from blocking the script by identifying automated traffic (bot).
+- **Targeting:** the script automates the concentration of URL base with the path */robots.txt*.Analisy the STATUS CODE(searching the 200 OK)and extract the content of file.
+-**whay it matters:** The *robots.txt* is ofthen used for admiminitrators to say to the searchings(like the Google)which folders should not be indexed.For um pentester,these forbidden folders(like */admin,/backup,or/config*)these are the points of greatests for finding vulnerabilities.
+## Feat: implement basic web recon script with user-agent spoofing
 
 
 
