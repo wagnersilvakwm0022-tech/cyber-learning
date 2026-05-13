@@ -759,9 +759,10 @@ I advanced to Lecture 2 of Professor Gilbert Strang’s MIT 18.06 course, focusi
 - **Upper Triangular Matrix ($U$):** The ultimate goal of Gaussian Elimination is to eliminate (turn into zero) all numbers below the main diagonal, creating a triangle of coefficients on top and zeros on the bottom. This allows the system to solve variables using **Back Substitution**.
 - **Pivots:** The non-zero numbers on the main diagonal used to eliminate elements below them. A pivot can never be zero.
 - **Row Exchange:** If a pivot vira zero durante a eliminação, o algoritmo realiza uma troca de linhas (*row exchange*) com uma linha inferior para continuar a computação. Se todas as opções abaixo forem zero, ocorre uma **Falha Permanente**, provando que o sistema não possui uma solução única.
-
 **Practical Logic Challenge:**
 - If the pivot is 4 and the target below is 2, the multiplier used is 0.5 (frac 1/2), because 4\times 0.5 = 2, and 2 - 2 = 0.
+- **Geometric Interpretation of Failure:** When a matrix results in a permanent failure (pivot equals zero with no rows to exchange), it means the equations represent either **parallel lines** (no solution) or the **same line** overlapping (infinite solutions). The system cannot find a single intersection point.
+- **Permutation Matrices (P):** I learned how operating systems perform row exchanges at the hardware level. Instead of manually moving data, the system multiplies the target matrix by a Permutation Matrix 0 e 1 , 1 e 0  (which is an inverted Identity Matrix). This algebraic operation shifts the non-zero elements to the pivot position, preventing division-by-zero crashes.
 
 
 ### 🐍 3. Python Automation: Log Automation
@@ -780,7 +781,7 @@ I advanced to Lecture 2 of Professor Gilbert Strang’s MIT 18.06 course, focusi
 ##### ☁️ Block 5: AWS Official Preparation (CLF-C02)
 -**Concept of the Day: Regions vs. Availability Zones (AZs):** A Region is a geographic area in the world (e.g., Northern Virginia). Within each region, there are at least 3 Availability Zones (AZs), which are separate and independent physical data centers.
 
-
+*Status: Day 25/1000 | 14 Hours of Deep Work | Focused on MIT 2026*
 
 
 
