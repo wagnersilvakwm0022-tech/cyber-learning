@@ -742,7 +742,7 @@ Hoje eu paguei o aluguel do meu futuro com **14 horas** de suor, código e matem
 
 *Status: Day 24/1000 | 14 Hours of Deep Work | Focused on MIT 2026*
 
-# 🛡️ Day 24:
+# 🛡️ Day 25:
 
 ### 🛠️ 1. lateral movement & Advanced SSH: 
 - **what I studied today:** I studied SSH key hijacking (or SSH agent hijacking). It's an advanced post-exploitation technique where an attacker invades a local server or machine and takes advantage of access keys or active sessions of the SSH agent utility. The main objective when using this tool is to perform lateral movement, accessing other servers on the network without needing to decrypt or physically steal the private key file.
@@ -750,8 +750,18 @@ Hoje eu paguei o aluguel do meu futuro com **14 horas** de suor, código e matem
 ![](https://github.com/wagnersilvakwm0022-tech/meus-dowloads/blob/main/Screenshot%202026-05-13%203.41.36%20PM.png)
 - **concept:** I understand how attackers steal private keys (`id_rsa`) without a password (Passphrase) to jump from one server to another undetected.
 
-### 🧠 2. Mathematical: Gaussian Elimination
+### 🧠 2. Mathematical Foundation: Gaussian Elimination
 
+**Concept:**
+I advanced to Lecture 2 of Professor Gilbert Strang’s MIT 18.06 course, focusing on **Gaussian Elimination**. This is the core algorithm that operating systems and cryptographic software use to solve massive linear systems.
+
+**Key Concepts Mastered:**
+- **Upper Triangular Matrix ($U$):** The ultimate goal of Gaussian Elimination is to eliminate (turn into zero) all numbers below the main diagonal, creating a triangle of coefficients on top and zeros on the bottom. This allows the system to solve variables using **Back Substitution**.
+- **Pivots:** The non-zero numbers on the main diagonal used to eliminate elements below them. A pivot can never be zero.
+- **Row Exchange:** If a pivot vira zero durante a eliminação, o algoritmo realiza uma troca de linhas (*row exchange*) com uma linha inferior para continuar a computação. Se todas as opções abaixo forem zero, ocorre uma **Falha Permanente**, provando que o sistema não possui uma solução única.
+
+**Practical Logic Challenge:**
+- If the pivot is 4 and the target below is 2, the multiplier used is 0.5 (frac 1/2), because 4\times 0.5 = 2, and 2 - 2 = 0.
 
 
 ### 🐍 3. Python Automation: Log Automation
