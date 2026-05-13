@@ -750,7 +750,7 @@ Hoje eu paguei o aluguel do meu futuro com **14 horas** de suor, código e matem
 ![](https://github.com/wagnersilvakwm0022-tech/meus-dowloads/blob/main/Screenshot%202026-05-13%203.41.36%20PM.png)
 - **concept:** I understand how attackers steal private keys (`id_rsa`) without a password (Passphrase) to jump from one server to another undetected.
 
-### 🧠. Mathematical: Gaussian Elimination
+### 🧠 2. Mathematical: Gaussian Elimination
 
 
 
@@ -761,9 +761,14 @@ Hoje eu paguei o aluguel do meu futuro com **14 horas** de suor, código e matem
 - **Action in the Terminal:** I started the virtual environment (`source ~/estudos_python/bin/activate`) to ensure the integrity of the libraries (PEP 668) and the isolation of the development environment.
 - **Script Refactoring:** (`script_recon.py`): We modified the code for Day 24, evolving the automation tool.
 - **I/O (Input/Output) Implementation:** I introduced the native structure with open(`"resultado_robots.txt", "w"`) as file:
+#### 🐍 4. Python Automation: The Technical Logic that you and I have mastered:
+- **Context Manager (with):** I learned that using `with` is an essential best practice in Python. It ensures that the file is automatically opened, edited, and closed by the system, even if an error occurs during execution. This prevents memory leaks and server hardware crashes.
+- **Writing Mode ("w"):** I configured Write mode to create the file from scratch (or overwrite old logs), saving the raw response (response.text) from the target.
+- **Report Automation:** The script now maps the target and generates a permanent report (`resultado_robots.txt`) directly to the hard drive, allowing for later analysis of the prohibited directories found.
+![](https://github.com/wagnersilvakwm0022-tech/meus-dowloads/blob/main/Screenshot%202026-05-13%204.03.02%20PM.png)
 
-
-
+##### ☁️ Block 5: AWS Official Preparation (CLF-C02)
+-**Concept of the Day: Regions vs. Availability Zones (AZs):** A Region is a geographic area in the world (e.g., Northern Virginia). Within each region, there are at least 3 Availability Zones (AZs), which are separate and independent physical data centers.
 
 
 
