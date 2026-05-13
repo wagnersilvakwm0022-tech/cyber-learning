@@ -746,7 +746,7 @@ Hoje eu paguei o aluguel do meu futuro com **14 horas** de suor, código e matem
 
 ### 🛠️ 1. lateral movement & Advanced SSH: 
 - **what I studied today:** I studied SSH key hijacking (or SSH agent hijacking). It's an advanced post-exploitation technique where an attacker invades a local server or machine and takes advantage of access keys or active sessions of the SSH agent utility. The main objective when using this tool is to perform lateral movement, accessing other servers on the network without needing to decrypt or physically steal the private key file.
-- **Action in the Terminal:** I navigated to the hidden key directory `cd ~/.ssh` and used the command `ls -la` to view the legal permission `ecat id_rsa.pub` to inspect its public key.
+- **Action in the Terminal:** I navigated to the hidden key directory `cd ~/.ssh` and used the command `ls -la` to view the legal permission `cat id_rsa.pub` to inspect its public key.
 ![](https://github.com/wagnersilvakwm0022-tech/meus-dowloads/blob/main/Screenshot%202026-05-13%203.41.36%20PM.png)
 - **concept:** I understand how attackers steal private keys (`id_rsa`) without a password (Passphrase) to jump from one server to another undetected.
 
