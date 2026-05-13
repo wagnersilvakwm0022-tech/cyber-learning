@@ -706,16 +706,11 @@ Successfully cracked my first MD5 hash using John the Ripper. I learned that eve
 #### Feat: Implement basic web recon script with user-agent spoofing
 ![](https://github.com/wagnersilvakwm0022-tech/meus-dowloads/blob/main/Screenshot%202026-05-12%204.02.24%20PM.png)
 
-
----
-
 ### 🌐 2. Networking & SSH Tunneling (Pivoting)
 I documented the use of the `ssh -L` (Local Port Forwarding) command.
 - **Conceito:** I learned how to create a secure "tunnel" between my local computer and a remote server.
 - **Utilidade:** This technique allows access to services on internal networks that are protected by a firewall, bringing the server port to my localhost (e.g., 127.0.0.1:8080).
 - **Importância:** Mastering SSH tunneling is fundamental for the Lateral Movement and Pivoting phases in corporate networks.
-
----
 
 ### 🧠 3. Mathematical Foundation
 - **Linear Algebra:** I watched Professor Gilbert Strang's lecture. This was my first video from an MIT professor, Linear Algebra lecture #1. He made me see linear algebra as a linear combination of columns. He mentions a 2-D and 3-D dimensional space, where he draws an equation in a 2x2 plane and in a 3x3 three-dimensional space, showing how column vectors form planes or lines and where the solution is located. I also understood that multiplying columns of the matrix results in a vector B, which can be represented as ($x\vec{v} + y\vec{w} = \vec{b}$).
@@ -724,14 +719,10 @@ I documented the use of the `ssh -L` (Local Port Forwarding) command.
   - Scalar k = -3  
   - Result = [-9, 6]
 
----
-
 ### ☁️ 4. AWS & Cloud Security
 Beginning preparation for the **AWS Cloud Practitioner** (CLF-C02) certification.
 - **Shared Responsibility Model:** I understand that security "in" the cloud (data, configurations, firewall) is the client's responsibility, while AWS protects the global infrastructure ("of" the cloud).
 - **S3 Buckets:** I studied how configuration errors in buckets can lead to massive data leaks.
-
----
 
 ### 🇺🇸 5. Technical English
 Total immersion in technical videos from AWS and MIT in English.
@@ -740,8 +731,6 @@ Total immersion in technical videos from AWS and MIT in English.
   2. *Shared Responsibility* (Responsabilidade Compartilhada)
   3. *Linear Combination* (Combinação Linear)
   4. *Spoofing* (Falsificação/Disfarce)
-
----
 
 ### 📝 Detail & Commitment
 I still don't know English perfectly; I'm using tools to assist me. I'm trying my best to achieve something that my current self will be proud of in the future. I'm 18 years old. My goal is: English level C2, OSCP and AWS certifications, advanced linear algebra knowledge, and MIT qualification by age 21. I will have all of this before I turn 22 and be the first in my city to achieve such a feat.
@@ -755,20 +744,23 @@ Hoje eu paguei o aluguel do meu futuro com **14 horas** de suor, código e matem
 
 # 🛡️ Day 24:
 
-### 🛠️ lateral movement & Advanced SSH: 
+### 🛠️ 1. lateral movement & Advanced SSH: 
 - **what I studied today:** I studied SSH key hijacking (or SSH agent hijacking). It's an advanced post-exploitation technique where an attacker invades a local server or machine and takes advantage of access keys or active sessions of the SSH agent utility. The main objective when using this tool is to perform lateral movement, accessing other servers on the network without needing to decrypt or physically steal the private key file.
 - **Action in the Terminal:** I navigated to the hidden key directory `cd ~/.ssh` and used the command `ls -la` to view the legal permission `ecat id_rsa.pub` to inspect its public key.
+![](https://github.com/wagnersilvakwm0022-tech/meus-dowloads/blob/main/Screenshot%202026-05-13%203.41.36%20PM.png)
 - **concept:** I understand how attackers steal private keys (`id_rsa`) without a password (Passphrase) to jump from one server to another undetected.
 
+### 🧠. Mathematical: Gaussian Elimination
 
 
 
-
-
-
-
-
-
+### 🐍 3. Python Automation: Log Automation
+- **what I studied:** Structured manipulation of text files using a scripting language.
+- **concept:** Structured text file manipulation allows for the fast, secure, and automated processing of large volumes of data. Instead of simply reading the data as a mass, the script recognizes specific formats to extract, filter, or transform information with precision.
+- **Common Structured Formats:** They are CSV/TSV, JSON, XML/HTML, YAML.
+- **Action in the Terminal:** I started the virtual environment (`source ~/estudos_python/bin/activate`) to ensure the integrity of the libraries (PEP 668) and the isolation of the development environment.
+- **Script Refactoring:** (`script_recon.py`): We modified the code for Day 24, evolving the automation tool.
+- **I/O (Input/Output) Implementation:** I introduced the native structure with open(`"resultado_robots.txt", "w"`) as file:
 
 
 
