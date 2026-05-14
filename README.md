@@ -784,6 +784,40 @@ I advanced to Lecture 2 of Professor Gilbert Strang’s MIT 18.06 course, focusi
 *Status: Day 25/1000 | 14 Hours of Deep Work | Focused on MIT 2026*
 
 
+# 🛡️ Day 26: Mass Automation, Mathematical Inverses, and Cloud Networking
+
+Today marked another 14-hour high-intensity sprint. I advanced significantly in infrastructure hacking, computer science mathematics, and enterprise cloud architecture.
+
+### 🧱 1. Lateral Movement & SSH Key Cracking
+- **Concept:** Explored advanced techniques with **John the Ripper** using the tool `ssh2john.py` to extract password hashes from encrypted private keys (`id_rsa`).
+- **Technical Logic:** Understood that if an administrator configures an SSH key without a passphrase, the script outputs a `has no password` alert. In a real-world Pentest scenario, an unencrypted private key allows immediate **Lateral Movement** without brute-force requirements.
+- **Fix:** Fixed path mapping issues to successfully generate a structured `ssh_hash.txt` file for dictionary attacks.
+
+### 🧠 2. Mathematical Foundation: Matrix Inverses & Singularity
+- **Course:** Advanced to Lecture 3 of Professor Gilbert Strang’s MIT 18.06 course.
+- **Key Learning:** Mastered the concept of the **Inverse Matrix (A^-1)** and its relationship with the Element Identity Matrix (A \times A^-1 = I).
+- **Cryptographic Context:** Learned that a matrix is **Singular** (non-invertible) if the elimination process encounters a permanent failure (pivots equal to zero). In cryptography (like RSA), a singular matrix means the system cannot undo the mathematical transformation, making data decryption impossible.
+- **Rule of Thumb:** If one row of a matrix is a multiple of another row, the matrix will always break during Gaussian elimination.
+
+### 🐍 3. Python Automation: Mass Web Reconnaissance Scanner
+- **Implementation:** Evolved the automated script from Day 25 into a mass scanning tool.
+- **Logic:** Implemented a file structure reader using `with open("alvos.txt", "r") as arquivo_alvos` combined with a `for` loop to parse multiple targets automatically.
+- **Output:** The tool successfully requests the `/robots.txt` path for each target in sequence, uses string manipulation (`.replace()`) to generate unique filenames, and persists the raw HTML logs into individual `.txt` files on the disk.
+
+### ☁️ 4. AWS Cloud Infrastructure: Networking & Isolation
+- **Course:** Watched the Networking chapter of the AWS Certified Cloud Practitioner course (FreeCodeCamp).
+- **Core Architectures Mastered:**
+  - **VPC (Virtual Private Cloud):** Logically isolated virtual network within the AWS cloud.
+  - **Public vs. Private Subnets:** Segregation of assets. Web servers live in public subnets (connected via Internet Gateway), while databases reside in private subnets for defense-in-depth.
+  - **Security Groups:** Instances-level firewalls that act as stateful traffic filters. Configured inbound rules to understand how to restrict dangerous management ports (like Port 22 - SSH) to specific administrative IPs.
+
+---
+### 🏆 Daily Thoughts & Commitment
+"The difference between an amateur and a master is that the master has failed more times than the amateur has even tried." 
+
+Today I embraced the discomfort of learning computer science, cloud infrastructure, and advanced logic in English. My 3-year plan for the MIT and the protection of my family is moving forward page by page.
+
+*Status: Day 26/1000 | 14 Hours of Deep Work | Target: MIT 2026*
 
 
 
