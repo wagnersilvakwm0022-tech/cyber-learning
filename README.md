@@ -723,7 +723,7 @@ Today marked another 14-hour high-intensity sprint. I advanced significantly in 
 - **Concept:** Explored advanced techniques with **John the Ripper** using the tool `ssh2john.py` to extract password hashes from encrypted private keys (`id_rsa`).
 - **Technical Logic:** Understood that if an administrator configures an SSH key without a passphrase, the script outputs a `has no password` alert. In a real-world Pentest scenario, an unencrypted private key allows immediate **Lateral Movement** without brute-force requirements.
 - **Fix:** Fixed path mapping issues to successfully generate a structured `ssh_hash.txt` file for dictionary attacks.
-
+![](https://github.com/wagnersilvakwm0022-tech/meus-dowloads/blob/main/ssh2john.py.png)
 ### 🧠 2. Mathematical Foundation: Matrix Inverses & Singularity
 - **Course:** Advanced to Lecture 3 of Professor Gilbert Strang’s MIT 18.06 course.
 - **Key Learning:** Mastered the concept of the **Inverse Matrix (A^-1)** and its relationship with the Element Identity Matrix (A \times A^-1 = I).
