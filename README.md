@@ -520,75 +520,6 @@ Neste décimo nono dia, foquei em mecanismos de controle de acesso e nas ferrame
   - **Cluster Bomb:** Testa todas as combinações entre múltiplas listas (ex: lista de usuários vs lista de senhas). É o método mais exaustivo.
 
 ![](https://github.com/wagnersilvakwm0022-tech/meus-dowloads/blob/main/Screenshot%202026-05-07%206.10.09%20PM.png)
-# 🛡️ Day 24: Achieving Little by Little
-
-### 🐍 1. Python Automation: Web Reconnaissance Tool
-- **Concept:** In this Block 3 of Day 24, I developed an automated recognition script focused on identifying sensitive files on web servers. The main focus was capturing the `robots.txt`.
-
-#### Technical Details:
-- **Library:** I used the `requests` library to manage HTTP requests.
-- **Bypass Strategy (User-Agent):** I implemented a custom header (`Headers`) to simulate a real browser (Chrome on Windows). This is crucial to prevent simple defense mechanisms from blocking the script by identifying automated traffic (bot).
-- **Targeting:** The script automates the concatenation of the URL base with the path `/robots.txt`. It analyzes the STATUS CODE (searching for the 200 OK) and extracts the content of the file.
-- **Why it matters:** The `robots.txt` is often used by administrators to tell search engines (like Google) which folders should not be indexed. For a pentester, these forbidden folders (like `/admin`, `/backup`, or `/config`) are the points of greatest interest for finding vulnerabilities.
-
-#### Feat: Implement basic web recon script with user-agent spoofing
-*(Insira a foto do seu script rodando aqui)*
-
----
-
-### 🌐 2. Networking & SSH Tunneling (Pivoting)
-I documented the use of the `ssh -L` (Local Port Forwarding) command.
-- **Conceito:** I learned how to create a secure "tunnel" between my local computer and a remote server.
-- **Utilidade:** This technique allows access to services on internal networks that are protected by a firewall, bringing the server port to my localhost (e.g., 127.0.0.1:8080).
-- **Importância:** Mastering SSH tunneling is fundamental for the Lateral Movement and Pivoting phases in corporate networks.
-
----
-
-### 🧠 3. Mathematical Foundation
-- **Linear Algebra:** I watched Professor Gilbert Strang's lecture. This was my first video from an MIT professor, Linear Algebra lecture #1. He made me see linear algebra as a linear combination of columns. He mentions a 2-D and 3-D dimensional space, where he draws an equation in a 2x2 plane and in a 3x3 three-dimensional space, showing how column vectors form planes or lines and where the solution is located. I also understood that multiplying columns of the matrix results in a vector B, which can be represented as ($x\vec{v} + y\vec{w} = \vec{b}$).
-- **Practical Challenge:** I practiced vector calculations after class:
-  - Vector v = [3, -2]  
-  - Scalar k = -3  
-  - Result = [-9, 6]
-
----
-
-### ☁️ 4. AWS & Cloud Security
-Beginning preparation for the **AWS Cloud Practitioner** (CLF-C02) certification.
-- **Shared Responsibility Model:** I understand that security "in" the cloud (data, configurations, firewall) is the client's responsibility, while AWS protects the global infrastructure ("of" the cloud).
-- **S3 Buckets:** I studied how configuration errors in buckets can lead to massive data leaks.
-
----
-
-### 🇺🇸 5. Technical English
-Total immersion in technical videos from AWS and MIT in English.
-- **Key Vocabulary:** 
-  1. *Scalability* (Escalabilidade)
-  2. *Shared Responsibility* (Responsabilidade Compartilhada)
-  3. *Linear Combination* (Combinação Linear)
-  4. *Spoofing* (Falsificação/Disfarce)
-
----
-
-### 📝 Detail & Commitment
-I still don't know English perfectly; I'm using tools to assist me. I'm trying my best to achieve something that my current self will be proud of in the future. I'm 18 years old. My goal is: English level C2, OSCP and AWS certifications, advanced linear algebra knowledge, and MIT qualification by age 21. I will have all of this before I turn 22 and be the first in my city to achieve such a feat.
-
-### 🏆 Final Thoughts & Motivation
-"Success is not owned, it is leased. And rent is due every day." (O sucesso não é seu, ele é alugado. E o aluguel vence todos os dias). 
-
-Hoje eu paguei o aluguel do meu futuro com **14 horas** de suor, código e matemática. Minha mãe terá o império que eu prometi, e o mundo conhecerá o meu nome. 
-
-*Status: Day 24/1000 | 14 Hours of Deep Work | Focused on MIT 2026*
-### 🛠️ Troubleshooting e Adaptação Técnica
-- **Desafio de Hardware:** Enfrentei instabilidades na interface gráfica (Java GUI) do Burp Suite devido às limitações de memória RAM do ambiente Chromebook. 
-- **Solução Estratégica:** Direcionei o estudo para a lógica de ataques via CLI (Linha de Comando) utilizando o **ffuf**, que executa as mesmas funções do Burp Intruder (Fuzzing de POST requests) de forma muito mais leve e performática.
-![](https://github.com/wagnersilvakwm0022-tech/meus-dowloads/blob/main/Screenshot%202026-05-07%206.08.24%20PM.png)
-- **Rate Limiting:** Entendi que em servidores lentos ou protegidos, o uso de "Delays" e ataques sequenciais (um por um) é obrigatório para evitar o travamento do serviço ou o banimento do IP.
-
-### 🇺🇸 Vocabulário do Dia:
-- **Credential Stuffing:** Ataque que usa listas de vazamentos de outros sites.
-- **Session Hijacking:** Sequestro de sessão através do roubo de cookies.
-- **Throttling:** Controle de velocidade de requisições para evitar sobrecarga.
 
 ---
 *Status: 19/1000 dias. A técnica é superior à ferramenta. Se a interface falha, o terminal resolve.*
@@ -713,7 +644,7 @@ I documented the use of the `ssh -L` (Local Port Forwarding) command.
 - **Importância:** Mastering SSH tunneling is fundamental for the Lateral Movement and Pivoting phases in corporate networks.
 
 ### 🧠 3. Mathematical Foundation
-- **Linear Algebra:** I watched Professor Gilbert Strang's lecture. This was my first video from an MIT professor, Linear Algebra lecture #1. He made me see linear algebra as a linear combination of columns. He mentions a 2-D and 3-D dimensional space, where he draws an equation in a 2x2 plane and in a 3x3 three-dimensional space, showing how column vectors form planes or lines and where the solution is located. I also understood that multiplying columns of the matrix results in a vector B, which can be represented as ($x\vec{v} + y\vec{w} = \vec{b}$).
+- **Linear Algebra:** I watched Professor Gilbert Strang's lecture. This was my first video from an MIT professor, Linear Algebra lecture #1. He made me see linear algebra as a linear combination of columns. He mentions a 2-D and 3-D dimensional space, where he draws an equation in a 2x2 plane and in a 3x3 three-dimensional space, showing how column vectors form planes or lines and where the solution is located. I also understood that multiplying columns of the matrix results in a vector B, which can be represented as (vec[v] + y\vec[w] = \vec[b]).
 - **Practical Challenge:** I practiced vector calculations after class:
   - Vector v = [3, -2]  
   - Scalar k = -3  
@@ -803,7 +734,7 @@ Today marked another 14-hour high-intensity sprint. I advanced significantly in 
 - **Implementation:** Evolved the automated script from Day 25 into a mass scanning tool.
 - **Logic:** Implemented a file structure reader using `with open("alvos.txt", "r") as arquivo_alvos` combined with a `for` loop to parse multiple targets automatically.
 - **Output:** The tool successfully requests the `/robots.txt` path for each target in sequence, uses string manipulation (`.replace()`) to generate unique filenames, and persists the raw HTML logs into individual `.txt` files on the disk.
-
+![](https://github.com/wagnersilvakwm0022-tech/meus-dowloads/blob/main/python08%20PM.png)
 ### ☁️ 4. AWS Cloud Infrastructure: Networking & Isolation
 - **Course:** Watched the Networking chapter of the AWS Certified Cloud Practitioner course (FreeCodeCamp).
 - **Core Architectures Mastered:**
