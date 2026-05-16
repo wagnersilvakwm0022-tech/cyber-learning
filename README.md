@@ -751,9 +751,12 @@ Today I embraced the discomfort of learning computer science, cloud infrastructu
 *Status: Day 26/1000 | 14 Hours of Deep Work | Target: MIT 2026*
 
 
+# 🛡️ Day 28:
+Today's study session was quite productive; the 14 hours of studying were fun and I learned a lot. Regarding the 27th, it served as a review, which was also quite productive. I'm still using the translator, but I can already read certain words with great ease. I hope to continue progressing gradually.
 
-
-
+### 🐍 1. Python Automation: building port scanner
+- **what I studied:** Today I understood that if an EC2 machine or an internet server is vulnerable, the pentest needs to know which ports are open. I created my own mini-nmap using the native o(`socket`) library.
+- **commands:** I used the command to enter Python study mode (`source ~/estudos-python/bin/active`) and then created a file (`nano port_scanner.py`).
 
 
 
