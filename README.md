@@ -757,7 +757,7 @@ Today's study session was quite productive; the 14 hours of studying were fun an
 ### 🐍 1. Python Automation: building port scanner
 - **what I studied:** Today I understood that if an EC2 machine or an internet server is vulnerable, the pentest needs to know which ports are open. I created my own mini-nmap using the native o(`socket`) library.
 - **commands:** I used the command to enter Python study mode (`source ~/estudos-python/bin/active`) and then created a file (`nano port_scanner.py`).
-
+![](https://github.com/wagnersilvakwm0022-tech/meus-dowloads/blob/main/Screenshot%202026-05-16%204.48.46%20PM.png)
 
 
 
