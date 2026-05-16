@@ -759,20 +759,19 @@ Today's study session was quite productive; the 14 hours of studying were fun an
 - **commands:** I used the command to enter Python study mode (`source ~/estudos-python/bin/active`) and then created a file (`nano port_scanner.py`).
 ![](https://github.com/wagnersilvakwm0022-tech/meus-dowloads/blob/main/Screenshot%202026-05-16%204.48.46%20PM.png)
 
+![](https://github.com/wagnersilvakwm0022-tech/meus-dowloads/blob/main/Screenshot%202026-05-16%2011.18.15%20AM.png)
 
+### 🧠 2. Mathematical Foundation: Matrix Inverses & Singularity
+- **Course:** Advanced to Lecture 3 of Professor Gilbert Strang’s MIT 18.06 course.
+- **Key Learning:** Today I finished video 3 of Professor Gilbert's Matrix Inverses & Singularity. Today I understood a little more than on the 26th about multiplication by columns and rows. I also started lesson number 4 on inverses (square matrices) and I will delve a little deeper tomorrow into the inverse of transpose. Since I'm watching the video in English and the subtitles are also in English, the only thing left for me to do is understand the logic. I'm totally immersed in English, so I won't rest until I understand what he's saying.
 
+### ☁️ 3. AWS Cloud Infrastructure: Networking & Isolation
+- **Course:** Today I studied about Amazon's storage classes.
+- **Storage and cost optimization.:**
+- **Amazon S3:** It's my external hard drive/cloud-based USB drive (only used to store files, photos, logs, and backups). It doesn't run any programs.
+- **Amazon EC2:** EC2 is the server that provides virtual and resizable computers (servers) in the Amazon cloud.In practice: Instead of buying an expensive physical machine to put on your desk, you "rent" the processor, RAM, and hard drive of a computer located in an AWS Data Center.
 
-
-
-
-
-
-
-
-
-
-
-
+*Status: Day 28/1000 | 14 Hours of Deep Work | Target: MIT 2026*
 
 
 
