@@ -849,6 +849,29 @@ My vacation bootcamp ends today. I transformed my terminal from a tool I just co
 *Status: Day 30/1000 | 14 Hours of Deep Work | Target: MIT 2026*
 
 
+# 🛡️ Day 31: Decompression Pipelining, Pandas Data Cleaning, and Vector Nullspaces
+
+Today marked a high-density, high-efficiency sprint. I focused on iterative data extraction inside Linux, commercial text automation frameworks in Python, and solving homogeneous systems in abstract vector spaces.
+
+### 🧱 1. Iterative Decompression Pipelines (OverTheWire: Bandit Level 12)
+Successfully conquered the Level 12 binary maze by reversing complex multi-layered data compressions entirely via the CLI.
+- **Workflow Architecture:** Created an isolated working directory inside `/tmp/kalleb_hacker`, migrated the source object, and used `xxd -r` to reconstruct the raw binary from hex dumps (`xxd -r data.txt > data`).
+- **Signature Analysis:** Systematically used the `file` command to perform x-ray signature analysis on every nested layer.
+- **Decoupling Executions:** Iterated through compressed states using specialized tools for each layer: `gzip -d` (Gzip data blocks), `bzip2 -d` (Bzip2 archives), and `tar -xf` (POSIX tarballs). Successfully peeled back over 5 layers of recursive archiving to isolate the plaintext ASCII file and recover the access keys for Level 13.
+
+### 🧠 2. Mathematical Foundation: Matrice Nullspaces ($Ax = 0$)
+- **Course:** Lecture 7 of Professor Gilbert Strang’s MIT 18.06 curriculum.
+- **Core Concepts Mastered:**
+  - **The Nullspace (N(A)):** Solved the homogeneous equation Ax = 0 to find the entire collection of vectors that are mapped directly to the zero vector by the matrix transformation.
+  - **Elimination Mechanics:** Applied Gaussian elimination on rectangular matrices to isolate **Pivot Variables** from **Free Variables**. 
+  - **Cryptographic Relevance:** Proved how an obfuscation matrix can completely annihilate an input vector, a fundamental concept used in linear cryptanalysis to reverse engineer secure channels.
+
+### 🐍 3. Python Corporate Engineering: Enterprise Data Higienization
+- **Implementation:** Built the architectural core for a commercial data automation SaaS using **Pandas** and **Openpyxl**.
+- **Data Pipeline:** Programmed an automatic data-cleansing loop. Leveraged `.str.strip()` to slice invisible trailing whitespaces and `.str.title()` to standardize naming conventions, while forcing email formats into uniform lowercase structures via `.str.lower()`.
+- **Persistence:** Exported the verified data structures straight into enterprise Excel format (`relatorio_polos_limpo.xlsx`) in milliseconds.
+
+*Status: Day 31/1000 | 7 Hours of High-Density Work | Target: MIT 2026*
 
 
 
