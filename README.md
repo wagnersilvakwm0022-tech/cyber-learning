@@ -889,6 +889,8 @@ Today was characterized by extreme tactical density, compressing 14 hours of Dee
 - **Refactoring & Debugging:** Resolved runtime execution tracebacks concerning name structural acentric bindings (`NameError`) and variable closures, perfecting local compiler diagnostics inside the terminal environment.
 - **Data Purging:** Used `re.sub(r'[-.]', '', cpf)` to actively strip physical masks, delivering pure numeric arrays ready for clean integration into managed databases.
 
+![](https://github.com/wagnersilvakwm0022-tech/meus-dowloads/blob/main/Screenshot%202026-05-20%204.52.54%20PM.png)
+
 ### 🧮 3. Mathematical Foundation: Rectangular Systems ($Ax = b$) & RREF Algorithm
 - **Course:** Lecture 8 of Professor Gilbert Strang’s MIT 18.06 architecture.
 - **Core Engineering Insights:** Advanced from homogeneous space nulls into solving complex non-zero rectangular vector solutions ($Ax = b$).
