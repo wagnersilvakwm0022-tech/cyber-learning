@@ -929,12 +929,12 @@ Today was marked by advanced architectural structuring, mapping cloud structural
 
 ### 🧮 1. Mathematical Foundation: The Four Fundamental Subspaces
 - **Course:** Lecture 9 of Professor Gilbert Strang’s MIT 18.06 curriculum.
-- **Core Insights:** Analyzed the structural "world map" of linear systems, defining the geometry and interactions of the 4 fundamental subspaces of any matrix $A$ ($m \times n$).
+- **Core Insights:** Analyzed the structural "world map" of linear systems, defining the geometry and interactions of the 4 fundamental subspaces of any matrix A (m times n).
 - **Dimensional Rules Verified:**
-  - **Column Space ($C(A)$):** Dimension equals the Rank (r), residing inside mathbb{R}^m.
-  - **Nullspace ($N(A)$):** Dimension equals columns minus rank (n - r), residing inside mathbb{R}^n.
-  - **Row Space ($C(A^T)$):** Dimension equals the Rank ($r$), residing inside mathbb{R}^n.
-  - **Left Nullspace ($N(A^T)$):** Dimension equals rows minus rank (m - r), residing inside mathbb{R}^m.
+  - **Column Space (C(A)):** Dimension equals the Rank (r), residing inside mathbb{R}^m.
+  - **Nullspace (N(A)):** Dimension equals columns minus rank (n - r), residing inside mathbb{R}^n.
+  - **Row Space (C(A^T)):** Dimension equals the Rank ($r$), residing inside mathbb{R}^n.
+  - **Left Nullspace (N(A^T)):** Dimension equals rows minus rank (m - r), residing inside mathbb{R}^m.
 - **Operational Synthesis:** Proved that the number of pivot columns controls the row and column dimensions, while the remaining free dimensions dictate system constraints.
 
 ### ☁️ 2. AWS Database Topologies: Relational vs Non-Relational (AWS CLF-C02)
@@ -967,12 +967,33 @@ Today marked the official initiation of my 14-hour daily hyper-focus cycle. I el
 ### 🧮 3. Mathematical Foundation: Subspace Orthogonality & Dimensions
 - **Course:** Lecture 10 of Professor Gilbert Strang’s MIT 18.06 framework.
 - **Core Engineering Insights:** Conceptualized the geometric duality and dimensions of the 4 fundamental subspaces inside rectangular networks (m \times n).
-- **Dimensional Verification:** Confirmed the structural boundaries where the Nullspace dimension equals n - r (residing in $\mathbb{R}^n$) and the Left Nullspace equals m - r (residing in mathbb{R}^m), establishing perfect matrix symmetry.
+- **Dimensional Verification:** Confirmed the structural boundaries where the Nullspace dimension equals n - r (residing in math b{R}^n) and the Left Nullspace equals m - r (residing in math b{R}^m), establishing perfect matrix symmetry.
 
 *Status: Day 35/1000 | 14 Hours of Deep Work | Target: MIT 2026*
 
 
 
+# 🛡️ Day 36: Serverless Architectures, Support Tiers, Event-Driven Python, and Permutations
+
+Concluded the second 14-hour hyper-focus cycle. Devoted absolute analytical bandwidth to cloud abstract computing models, production event structures, and combinatorics inside vector spaces.
+
+### ☁️ 1. AWS Compute Specialization & Support Engineering (AWS CLF-C02)
+- **Serverless Frameworks:** Evaluated the architectural boundaries of AWS Lambda, API Gateway, and Step Functions. Codified cost-optimization models based on millisecond execution billing vectors, achieving a zero-dollar idle cost baseline compared to legacy EC2 instances.
+- **Microservices Deployment:** Studied hybrid environments utilizing Amazon ECS/EKS for structured Docker containers combined with AWS Fargate to remove system administration tasks.
+- **Support Service Level Agreements (SLAs):** Mapped technical parameters across Basic, Developer, Business (24x7 chat/phone with <1 hour response for system-down scenarios), and Enterprise (Technical Account Manager - TAM integration with <15 min critical response limits).
+
+### 🐍 2. Python Production Engineering: Event-Driven Serverless Simulation
+- **Implementation:** Engineered a functional execution microservice named `simulador_lambda.py`.
+- **Logic:** Built standard `lambda_handler(event, context)` entry points to simulate AWS infrastructure event injections via native dictionary lookups.
+- **Validation Engine:** Coupled core regular expression mapping arrays with structured HTTP response models (statusCode 200/400 JSON payloads), building production-ready validation frameworks.
+
+### 🧮 3. Mathematical Foundation: Permutation Matrices ($P$) & Structural Factorials
+- **Course:** Lecture 11 of Professor Gilbert Strang’s MIT 18.06 architecture.
+- **Core Insights:** Mastered row-exchange mechanics using Permutation Matrices ($P$) to stabilize Gaussian elimination when executing zero-pivot conditions.
+- **Algebraic Orthogonality:** Verified the symmetric inversion property where P^{-1} = P^T. Expanded space conceptualization to view entire matrices as isolated objects inside higher abstract fields complying with scaling laws.
+- **Combinatorics:** Evaluated permutation dimensions, proving that the exact number of unique matrices inside an n times n network equals n! configurations.
+
+*Status: Day 36/1000 | 14 Hours of Deep Work | Target: MIT 2026*
 
 
 
