@@ -1052,6 +1052,8 @@ Concluded another intense 14-hour high-density tracking loop. Devoted absolute a
 - **Logic:** Programmed interceptor routines mapping user requests straight to operational volatile arrays (Cache HIT simulation), reducing downstream processing dependency.
 - **Execution:** Created execution checkpoints using structural network delay overrides (`time.sleep`) to analytically verify caching performance gains between initial requests and cached lookups.
 
+!(https://github.com/wagnersilvakwm0022-tech/meus-dowloads/blob/main/kafkagilgadebatilda.png).
+
 ### 🧮 3. Mathematical Foundation: Subspace Orthogonal Projections (P^2 = P)
 - **Course:** Lecture 14 of Professor Gilbert Strang’s MIT 18.06 architecture.
 - **Core Engineering Insights:** Conceptualized optimization approximations when engineering rectangular equations lack exact solutions (Ax = b).
