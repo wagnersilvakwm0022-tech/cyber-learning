@@ -1084,6 +1084,25 @@ Concluded another intense 14-hour daily focus cycle. Devoted absolute analytical
 *Status: Day 40/1000 | 14 Hours of Deep Work | Target: MIT 2026*
 
 
+# 🛡️ Day 41: Architectural Frameworks, Matrix Multiplications, and Normal Least Squares
+
+Concluded another high-density 14-hour operation cycle. Dedicated core logical operations to enterprise architecture pillars, custom matrix compilation engines, and linear optimization bounds.
+
+### ☁️ 1. AWS Cloud Architecture Specialization (AWS CLF-C02)
+- **AWS Well-Architected Framework:** Mastered the structural taxonomy governing the 6 Fundamental Pillars: Operational Excellence, Security, Reliability, Performance Efficiency, Cost Optimization, and Sustainability [3.1].
+- **Case Scenario Analysis:** Codified strategic resource allocation methodologies, focusing on computational right-sizing parameters (Cost Optimization) and high-availability automated structural recovery loops (Reliability) [3.1].
+
+### 🐍 2. Python Production Engineering: Low-Level Matrix Manipulations
+- **Implementation:** Engineered an algorithmic matrix transposition and matrix multiplication engine named `minimos_quadrados.py` [3.1].
+- **Logic:** Programmed deep computational nested validation loops to execute raw 2D array transformations without external framework dependencies, computing mathematical transposition matrices ($A^T$).
+- **Matrix Operations:** Developed the matrix product layer ($A^T \times A$), converting an asymmetrical rectangular raw dataset ($3 \times 2$) into an operating symmetric square matrix ($2 \times 2$) [3.1].
+
+### 🧮 3. Mathematical Foundation: Normal Equations & Column Independence
+- **Course:** Lecture 15 of Professor Gilbert Strang’s MIT 18.06 network.
+- **Core Engineering Insights:** Conceptualized linear error minimizing algorithms ($e = b - p$) when overdetermined systems yield zero exact spatial balances ($Ax = b$) [3.1].
+- **Invertibility Verification:** Analytically verified the core structural matrix law proving that if a rectangular matrix $A$ contains Linear Independence across columns, its computed matrix counterpart ($A^T A$) yields a non-singular, completely invertible matrix profile with single distinct solutions [3.1].
+
+*Status: Day 41/1000 | 14 Hours of Deep Work | Target: MIT 2026*
 
 
 
