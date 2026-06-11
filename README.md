@@ -1368,7 +1368,7 @@ Concluded another high-density 14-hour engineering sprint. Dedicated core execut
 - **Logic:** Integrated programmatic socket evaluation loops to trace ingress and egress traffic signatures, auditing packet headers against strict destination parameters.
 - **Intrusion Alerts:** Engineered automated logic branches to isolate non-authorized administrative attempts (Port 22 SSH), flagging malicious source vectors and generating instant denial hooks (`[SECURITY GROUP DENY]`).
 
-![](http://github.com/wagnersilvakwm0022-tech/meus-dowloads/blob/main/capture%20number%202.png).
+![](http://github.com/wagnersilvakwm0022-tech/meus-dowloads/blob/main/capture%20number%202.png)
 
 ### 🧮 4. Mathematical Foundation: Complex Vector Spaces & Hermitian Matrices
 - **Course:** Lecture 26 of Professor Gilbert Strang’s MIT 18.06 course.
