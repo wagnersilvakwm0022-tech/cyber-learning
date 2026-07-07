@@ -35,10 +35,14 @@ Este repositório centraliza meus projetos práticos, laboratórios e automaçõ
 ---
 
 ## 📂 Como Utilizar este Repositório
-*(Em breve: Adição dos scripts automatizados em Python/Bash e documentação passo a passo de como executar os testes locais de segurança).*
 
-![](https://github.com/wagnersilvakwm0022-tech/cyber-learning/blob/main/scanner.py)
-![](https://github.com/wagnersilvakwm0022-tech/cyber-learning/blob/main/scanner.sh)
+Este laboratório possui ferramentas de automação prontas para uso:
+
+### 🐍 Executando o Scanner em Python
+O script `scanner.py` utiliza módulos nativos para gerenciar e registrar as varreduras de rede de forma eficiente.
+```bash
+python scanner.py <IP_OU_DOMINIO_ALVO>
+
 
 # 🛡️ Jornada Cibersegurança - Dia 1
 
