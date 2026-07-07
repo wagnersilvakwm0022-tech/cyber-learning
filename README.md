@@ -33,6 +33,19 @@ Este repositório centraliza meus projetos práticos, laboratórios e automaçõ
 *   **Segurança e Redes:** Nmap, Wireshark, Firewalls (NACLs, Security Groups)
 
 ---
+
+## 📂 Como Utilizar este Repositório
+
+Este laboratório possui ferramentas de automação prontas para uso:
+
+### 🐍 Executando o Scanner em Python
+O script `scanner.py` utiliza módulos nativos para gerenciar e registrar as varreduras de rede de forma eficiente.
+
+```bash```
+python scanner.py <IP_OU_DOMINIO_ALVO>
+chmod +x scanner.sh
+./scanner.sh <IP_OU_DOMINIO_ALVO>
+
 ### 🛡️ Jornada Cibersegurança - Dia 1
 
 #### 🛠️ O que aprendi hoje:
@@ -48,18 +61,6 @@ Este repositório centraliza meus projetos práticos, laboratórios e automaçõ
 * `ping -c 4 127.0.0.1` (Localhost)
 
 *Foco: 5 horas diárias de estudo intenso.*
-
----
-
-## 📂 Como Utilizar este Repositório
-
-Este laboratório possui ferramentas de automação prontas para uso:
-
-### 🐍 Executando o Scanner em Python
-O script `scanner.py` utiliza módulos nativos para gerenciar e registrar as varreduras de rede de forma eficiente.
-
-```bash
-python scanner.py <IP_OU_DOMINIO_ALVO>
 
 # 🛡️ Jornada Cibersegurança - Dia 2
 
