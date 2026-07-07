@@ -38,6 +38,7 @@ Este repositório centraliza meus projetos práticos, laboratórios e automaçõ
 *(Em breve: Adição dos scripts automatizados em Python/Bash e documentação passo a passo de como executar os testes locais de segurança).*
 
 ![](https://github.com/wagnersilvakwm0022-tech/cyber-learning/blob/main/scanner.py)
+![](https://github.com/wagnersilvakwm0022-tech/cyber-learning/blob/main/scanner.sh)
 
 # 🛡️ Jornada Cibersegurança - Dia 1
 
