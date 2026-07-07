@@ -36,15 +36,6 @@ Este repositório centraliza meus projetos práticos, laboratórios e automaçõ
 
 ## 📂 Como Utilizar este Repositório
 
-Este laboratório possui ferramentas de automação prontas para uso:
-
-### 🐍 Executando o Scanner em Python
-O script `scanner.py` utiliza módulos nativos para gerenciar e registrar as varreduras de rede de forma eficiente.
-```bash
-python scanner.py <IP_OU_DOMINIO_ALVO>
-
-chmod +x scanner.sh
-./scanner.sh <IP_OU_DOMINIO_ALVO>
 
 # 🛡️ Jornada Cibersegurança - Dia 1
 
@@ -1443,11 +1434,19 @@ Concluded another high-density 14-hour engineering cycle. Focused operational wo
 - **State Validation:** Codified operational telemetry condition checks, triggering state flags upon reaching total block validation bounds (`[MIGRATION SUCCESS]`).
 
 *Status: Day 56/1000 | 14 Hours of Deep Work | Target: MIT 2026*
+---
 
+## 📂 Como Utilizar este Repositório
 
+Este laboratório possui ferramentas de automação prontas para uso:
 
+### 🐍 Executando o Scanner em Python
+O script `scanner.py` utiliza módulos nativos para gerenciar e registrar as varreduras de rede de forma eficiente.
+```bash
+python scanner.py <IP_OU_DOMINIO_ALVO>
 
-
+chmod +x scanner.sh
+./scanner.sh <IP_OU_DOMINIO_ALVO>
 
 
 
