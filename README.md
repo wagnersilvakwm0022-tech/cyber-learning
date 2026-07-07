@@ -43,6 +43,8 @@ O script `scanner.py` utiliza módulos nativos para gerenciar e registrar as var
 ```bash
 python scanner.py <IP_OU_DOMINIO_ALVO>
 
+chmod +x scanner.sh
+./scanner.sh <IP_OU_DOMINIO_ALVO>
 
 # 🛡️ Jornada Cibersegurança - Dia 1
 
