@@ -50,9 +50,7 @@ Este repositório centraliza meus projetos práticos, laboratórios e automaçõ
 - `ping -c 4 8.8.8.8` (Teste de conectividade)
 - `nmap scanme.nmap.org` (Primeiro scan ético)
 - `sudo nmap -O`(Concluí o reconhecimento de Sistema Operacional (OS Detection) usando privilégios de superusuário (Sudo). Identifiquei que o alvo scanme.nmap.org utiliza o sistema Linux.)
-- ![](https://github.com/wagnersilvakwm0022-tech/cyber-learning/blob/main/foto%202.png).
 - `ping -c 4 127.0.0.1(Localhost)
-- ![](https://github.com/wagnersilvakwm0022-tech/cyber-learning/blob/main/capture.png)
 *Foco: 5 horas diárias de estudo intenso.*
 
 
