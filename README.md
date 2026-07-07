@@ -33,6 +33,23 @@ Este repositório centraliza meus projetos práticos, laboratórios e automaçõ
 *   **Segurança e Redes:** Nmap, Wireshark, Firewalls (NACLs, Security Groups)
 
 ---
+### 🛡️ Jornada Cibersegurança - Dia 1
+
+#### 🛠️ O que aprendi hoje:
+- **Fundamentos de Redes:** O que é um endereço IP, Octetos e a diferença entre Network ID e Host ID.
+- **Linux:** Como ativar o ambiente Linux no Chromebook e comandos básicos de terminal.
+- **Ferramentas:** Instalação e primeiro uso do `nmap` para escaneamento de rede.
+
+#### 💻 Comandos Praticados:
+* `sudo apt update` (Atualização do sistema)
+* `ping -c 4 8.8.8.8` (Teste de conectividade)
+* `nmap scanme.nmap.org` (Primeiro scan ético)
+* `sudo nmap -O` (Reconhecimento de Sistema Operacional usando privilégios de superusuário)
+* `ping -c 4 127.0.0.1` (Localhost)
+
+*Foco: 5 horas diárias de estudo intenso.*
+
+---
 
 ## 📂 Como Utilizar este Repositório
 
@@ -43,25 +60,6 @@ O script `scanner.py` utiliza módulos nativos para gerenciar e registrar as var
 
 ```bash
 python scanner.py <IP_OU_DOMINIO_ALVO>
-chmod +x scanner.sh
-./scanner.sh <IP_OU_DOMINIO_ALVO>
-
-# 🛡️ Jornada Cibersegurança - Dia 1
-
-### 🛠️ O que aprendi hoje:
-- **Fundamentos de Redes:** O que é um endereço IP, Octetos e a diferença entre Network ID e Host ID.
-- **Linux:** Como ativar o ambiente Linux no Chromebook e comandos básicos de terminal.
-- **Ferramentas:** Instalação e primeiro uso do `nmap` para escaneamento de rede.
-
-
-### 💻 Comandos Praticados:
-- `sudo apt update` (Atualização do sistema)
-- `ping -c 4 8.8.8.8` (Teste de conectividade)
-- `nmap scanme.nmap.org` (Primeiro scan ético)
-- `sudo nmap -O`(Concluí o reconhecimento de Sistema Operacional (OS Detection) usando privilégios de superusuário (Sudo). Identifiquei que o alvo scanme.nmap.org utiliza o sistema Linux.)
-- `ping -c 4 127.0.0.1(Localhost)
-*Foco: 5 horas diárias de estudo intenso.*
-
 
 # 🛡️ Jornada Cibersegurança - Dia 2
 
