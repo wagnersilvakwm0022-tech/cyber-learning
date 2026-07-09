@@ -5,7 +5,7 @@ Este repositório centraliza meus projetos práticos, laboratórios e automaçõ
 ---
 
 ## 🚀 Trilha de Aprendizado e Certificações
-- [ ] **AWS Certified Cloud Practitioner (CLF-C02)** — *Em preparação ativa*
+- [x] **AWS Certified Cloud Practitioner (CLF-C02)** — *Em preparação ativa*
 - [ ] **AWS Certified Solutions Architect – Associate** — *Próximo objetivo*
 - [ ] **OSCP (Offensive Security Certified Professional)** — *Meta de longo prazo*
 
