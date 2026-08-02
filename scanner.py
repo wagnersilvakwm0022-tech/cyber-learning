@@ -3,7 +3,7 @@ import subprocess
 from datetime import datetime
 
 def executar_varredura():
-    # Verifica se o argumento do IP alvo foi fornecido
+   
     if len(sys.argv) < 2:
         print("[-] Erro: Você precisa especificar um IP ou domínio alvo.")
         print("Exemplo: python scanner.py 192.168.1.1")
@@ -17,7 +17,7 @@ def executar_varredura():
     print(f"[+] Salvando relatório em: {arquivo_saida}")
     print("-" * 50)
 
-    # Comando Nmap simplificado para rodar direto pelo Python
+   
     comando = ["nmap", "-sV", "-F", alvo]
 
     try:
