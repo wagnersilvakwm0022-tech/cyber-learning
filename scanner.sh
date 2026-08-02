@@ -10,7 +10,7 @@ if [ -z "$1" ]; then
 fi
 
 ALVO=$1
-ARQUIVO_SAIDA="resultado_nmap_$(date +%Y%m%d_%H%M%S).txt"
+ARQUIVO_SAIDA="resultado_nmap_$(date +%Y-%m-%d_%H-%M).txt"
 
 echo "[+] Iniciando varredura automatizada no alvo: $ALVO"
 echo "[+] Os resultados serão salvos em: $ARQUIVO_SAIDA"
